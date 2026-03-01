@@ -7,10 +7,11 @@ import hashlib
 import urllib.parse
 
 BASE_URL = "https://consell-lh.playoffinformatica.com/"
-CALENDAR_URL = BASE_URL + "peticioAjaxCompeticioPublica.php?peticioKey=peticio_competicio_publica_calendari&idGrup=899"
+ID_GRUP = "899"
+CALENDAR_URL = BASE_URL + "peticioAjaxCompeticioPublica.php?peticioKey=peticio_competicio_publica_calendari" + "&idGrup=" + ID_GRUP
 
 EQUIPO = "AFA INSTITUT BISBE BERENGUER"
-DURACION_HORAS = 1.5
+DURACION_HORAS = 1
 ZONA = ZoneInfo("Europe/Madrid")
 
 response = requests.get(CALENDAR_URL)
@@ -48,7 +49,7 @@ for partido in partidos:
     partes_lugar = [p.strip() for p in lugar_raw.split("\n") if p.strip()]
 
     direccion = partes_lugar[0] if len(partes_lugar) > 0 else ""
-    pabellon = partes_lugar[1] if len(partes_lugar) > 1 else direccion
+    pabellon = partes_lugar[2] if len(partes_lugar) > 1 else direccion
 
     # Enlace Google Maps con dirección completa
     maps_query = urllib.parse.quote(direccion)
