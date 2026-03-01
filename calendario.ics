@@ -2,67 +2,75 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Partido liga escolar
-DURATION:PT1H
-LOCATION:Av. Mare de Deu Bellvitge\, 100-110 (HOSPITALET DE LLOBREGAT\,L')Jesuïtes Bellvitge - CE Joan XXIII06-03-2026 19:45h
-DTSTART:20260306T194500Z
-SUMMARY:J23 vs AFA INSTITUT BISBE BERENGUER (FDC)
-UID:1b0244d9-0917-4430-aadf-d5b3a5f9bfda@1b02.org
+DESCRIPTION:Partido liga escolar\n\nEquipo: AFA INSTITUT BISBE BERENGUER\nRival: J23\nCondición: 🚗 Visitante\n\nLugar:\nAv. Mare de Deu Bellvitge\, 100-110 (HOSPITALET DE LLOBREGAT\,L') Jesuïtes Bellvitge - CE Joan XXIII 06-03-2026 19:45h\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24930
+DTEND:20260306T201500Z
+LOCATION:Av. Mare de Deu Bellvitge\, 100-110 (HOSPITALET DE LLOBREGAT\,L') Jesuïtes Bellvitge - CE Joan XXIII 06-03-2026 19:45h
+DTSTART:20260306T184500Z
+SUMMARY:🚗 Visitante vs J23
+UID:741523bde915f1ea218ba805f5e9e701
+URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24930
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Partido liga escolar
-DURATION:PT1H
-LOCATION:Av. Carmen Amaya\, 44 (HOSPITALET DE LLOBREGAT\,L')Institut Escola Gornal28-02-2026 09:00h
-DTSTART:20260228T090000Z
-SUMMARY:AJ PLA DE LLOBREGAT A vs AFA INSTITUT BISBE BERENGUER (FDC)
-UID:956d27ed-c186-4977-9ca3-6fcae730c701@956d.org
+DESCRIPTION:Partido liga escolar\n\nEquipo: AFA INSTITUT BISBE BERENGUER\nRival: AJ PLA DE LLOBREGAT A\nCondición: 🚗 Visitante\n\nLugar:\nAv. Carmen Amaya\, 44 (HOSPITALET DE LLOBREGAT\,L') Institut Escola Gornal 28-02-2026 09:00h\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24929
+DTEND:20260228T093000Z
+LOCATION:Av. Carmen Amaya\, 44 (HOSPITALET DE LLOBREGAT\,L') Institut Escola Gornal 28-02-2026 09:00h
+DTSTART:20260228T080000Z
+SUMMARY:🚗 Visitante vs AJ PLA DE LLOBREGAT A
+UID:43a2aafba752ab4606f08057dba5a95a
+URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24929
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Partido liga escolar
-DURATION:PT1H
-LOCATION:C/ Can Tries\, 20 (HOSPITALET DE LLOBREGAT\,L')Poliesportiu Municipal Gornal11-04-2026 13:00h
-DTSTART:20260411T130000Z
-SUMMARY:INSTITUT PEDRAFORCA vs AFA INSTITUT BISBE BERENGUER (FDC)
-UID:b5a2d398-1751-4323-984d-20db61fe3de4@b5a2.org
+DESCRIPTION:Partido liga escolar\n\nEquipo: AFA INSTITUT BISBE BERENGUER\nRival: AJ PLA DE LLOBREGAT A\nCondición: 🏠 Local\n\nLugar:\nC/ Aprestadora\, 49 (HOSPITALET DE LLOBREGAT\,L') Institut Bisbe Berenguer 17-04-2026 18:00h\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24939
+DTEND:20260417T173000Z
+LOCATION:C/ Aprestadora\, 49 (HOSPITALET DE LLOBREGAT\,L') Institut Bisbe Berenguer 17-04-2026 18:00h
+DTSTART:20260417T160000Z
+SUMMARY:🏠 Local vs AJ PLA DE LLOBREGAT A
+UID:10ad578d2ba287abe0f96c75ead40323
+URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24939
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Partido liga escolar
-DURATION:PT1H
-LOCATION:C/ Aprestadora\, 49 (HOSPITALET DE LLOBREGAT\,L')Institut Bisbe Berenguer20-03-2026 18:00h
-DTSTART:20260320T180000Z
-SUMMARY:AFA INSTITUT BISBE BERENGUER (FDC) vs INSTITUT RUBIO I ORS
-UID:e68dfeca-96e3-4c1c-a82d-40ed4b7f9431@e68d.org
+DESCRIPTION:Partido liga escolar\n\nEquipo: AFA INSTITUT BISBE BERENGUER\nRival: INSTITUT RUBIO I ORS\nCondición: 🚗 Visitante\n\nLugar:\nC/ Can Tries\, 20 (HOSPITALET DE LLOBREGAT\,L') Poliesportiu Municipal Gornal 07-02-2026 10:00h\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24924
+DTEND:20260207T103000Z
+LOCATION:C/ Can Tries\, 20 (HOSPITALET DE LLOBREGAT\,L') Poliesportiu Municipal Gornal 07-02-2026 10:00h
+DTSTART:20260207T090000Z
+SUMMARY:🚗 Visitante vs INSTITUT RUBIO I ORS
+UID:259a7bc24e50356a86ce3775a73082b7
+URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24924
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Partido liga escolar
-DURATION:PT1H
-LOCATION:C/ Aprestadora\, 49 (HOSPITALET DE LLOBREGAT\,L')Institut Bisbe Berenguer17-04-2026 18:00h
-DTSTART:20260417T180000Z
-SUMMARY:AFA INSTITUT BISBE BERENGUER (FDC) vs AJ PLA DE LLOBREGAT A
-UID:6317bc1d-310a-412d-a7a0-274a7d679055@6317.org
+DESCRIPTION:Partido liga escolar\n\nEquipo: AFA INSTITUT BISBE BERENGUER\nRival: INSTITUT PEDRAFORCA\nCondición: 🚗 Visitante\n\nLugar:\nC/ Can Tries\, 20 (HOSPITALET DE LLOBREGAT\,L') Poliesportiu Municipal Gornal 11-04-2026 13:00h\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24937
+DTEND:20260411T123000Z
+LOCATION:C/ Can Tries\, 20 (HOSPITALET DE LLOBREGAT\,L') Poliesportiu Municipal Gornal 11-04-2026 13:00h
+DTSTART:20260411T110000Z
+SUMMARY:🚗 Visitante vs INSTITUT PEDRAFORCA
+UID:a0ab8a4eff20c0962c237539cdb945cf
+URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24937
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Partido liga escolar
-DURATION:PT1H
-LOCATION:C/ Aprestadora\, 49 (HOSPITALET DE LLOBREGAT\,L')Institut Bisbe Berenguer24-04-2026 18:00h
-DTSTART:20260424T180000Z
-SUMMARY:AFA INSTITUT BISBE BERENGUER (FDC) vs J23
-UID:c75d6c59-33ce-4c61-a94c-276821bf08f7@c75d.org
+DESCRIPTION:Partido liga escolar\n\nEquipo: AFA INSTITUT BISBE BERENGUER\nRival: INSTITUT PEDRAFORCA\nCondición: 🏠 Local\n\nLugar:\nC/ Aprestadora\, 49 (HOSPITALET DE LLOBREGAT\,L') Institut Bisbe Berenguer 20-02-2026 18:00h\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24927
+DTEND:20260220T183000Z
+LOCATION:C/ Aprestadora\, 49 (HOSPITALET DE LLOBREGAT\,L') Institut Bisbe Berenguer 20-02-2026 18:00h
+DTSTART:20260220T170000Z
+SUMMARY:🏠 Local vs INSTITUT PEDRAFORCA
+UID:119061d6cfe13fc027c2e7fb71811171
+URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24927
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Partido liga escolar
-DURATION:PT1H
-LOCATION:C/ Can Tries\, 20 (HOSPITALET DE LLOBREGAT\,L')Poliesportiu Municipal Gornal07-02-2026 10:00h
-DTSTART:20260207T100000Z
-SUMMARY:INSTITUT RUBIO I ORS vs AFA INSTITUT BISBE BERENGUER (FDC)
-UID:ab0acf30-9db2-4ff6-ab45-04fbdfc8e966@ab0a.org
+DESCRIPTION:Partido liga escolar\n\nEquipo: AFA INSTITUT BISBE BERENGUER\nRival: INSTITUT RUBIO I ORS\nCondición: 🏠 Local\n\nLugar:\nC/ Aprestadora\, 49 (HOSPITALET DE LLOBREGAT\,L') Institut Bisbe Berenguer 20-03-2026 18:00h\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24934
+DTEND:20260320T183000Z
+LOCATION:C/ Aprestadora\, 49 (HOSPITALET DE LLOBREGAT\,L') Institut Bisbe Berenguer 20-03-2026 18:00h
+DTSTART:20260320T170000Z
+SUMMARY:🏠 Local vs INSTITUT RUBIO I ORS
+UID:70df73a88c61363ff33267232ad31a3d
+URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24934
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Partido liga escolar
-DURATION:PT1H
-LOCATION:C/ Aprestadora\, 49 (HOSPITALET DE LLOBREGAT\,L')Institut Bisbe Berenguer20-02-2026 18:00h
-DTSTART:20260220T180000Z
-SUMMARY:AFA INSTITUT BISBE BERENGUER (FDC) vs INSTITUT PEDRAFORCA
-UID:98fa732b-7c62-4449-9daf-3f5b8388b9dd@98fa.org
+DESCRIPTION:Partido liga escolar\n\nEquipo: AFA INSTITUT BISBE BERENGUER\nRival: J23\nCondición: 🏠 Local\n\nLugar:\nC/ Aprestadora\, 49 (HOSPITALET DE LLOBREGAT\,L') Institut Bisbe Berenguer 24-04-2026 18:00h\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24940
+DTEND:20260424T173000Z
+LOCATION:C/ Aprestadora\, 49 (HOSPITALET DE LLOBREGAT\,L') Institut Bisbe Berenguer 24-04-2026 18:00h
+DTSTART:20260424T160000Z
+SUMMARY:🏠 Local vs J23
+UID:898adf3458238099766d55f75a3dfb86
+URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24940
 END:VEVENT
 END:VCALENDAR
