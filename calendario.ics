@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 {'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=79200), 'description': 'Recordatorio partido'}
-DESCRIPTION:Partido liga escolar\n\nCondición: Visitante\nLocal: INSTITUT RUBIO I ORS\nVisitante: AFA INSTITUT BISBE BERENGUER (FDC)\n\nPabellón: Poliesportiu Municipal Gornal\nDirección: C/ Can Tries\, 20\nMapa: https://www.google.com/maps/search/?api=1&query=C/%20Can%20Tries%2C%2020\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24924
+DESCRIPTION:Jornada 1 liga escolar\n\nCondición: Visitante\nLocal: INSTITUT RUBIO I ORS\nVisitante: AFA INSTITUT BISBE BERENGUER (FDC)\n\nPabellón: Poliesportiu Municipal Gornal\nDirección: C/ Can Tries\, 20\nMapa: https://www.google.com/maps/search/?api=1&query=C/%20Can%20Tries%2C%2020\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24924
 DTEND:20260207T100000Z
 LOCATION:Poliesportiu Municipal Gornal
 DTSTART:20260207T090000Z
@@ -13,7 +13,7 @@ URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?a
 END:VEVENT
 BEGIN:VEVENT
 {'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=79200), 'description': 'Recordatorio partido'}
-DESCRIPTION:Partido liga escolar\n\nCondición: Local\nLocal: AFA INSTITUT BISBE BERENGUER (FDC)\nVisitante: J23\n\nPabellón: Institut Bisbe Berenguer\nDirección: C/ Aprestadora\, 49\nMapa: https://www.google.com/maps/search/?api=1&query=C/%20Aprestadora%2C%2049\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24940
+DESCRIPTION:Jornada 9 liga escolar\n\nCondición: Local\nLocal: AFA INSTITUT BISBE BERENGUER (FDC)\nVisitante: J23\n\nPabellón: Institut Bisbe Berenguer\nDirección: C/ Aprestadora\, 49\nMapa: https://www.google.com/maps/search/?api=1&query=C/%20Aprestadora%2C%2049\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24940
 DTEND:20260424T170000Z
 LOCATION:Institut Bisbe Berenguer
 DTSTART:20260424T160000Z
@@ -23,7 +23,7 @@ URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?a
 END:VEVENT
 BEGIN:VEVENT
 {'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=79200), 'description': 'Recordatorio partido'}
-DESCRIPTION:Partido liga escolar\n\nCondición: Local\nLocal: AFA INSTITUT BISBE BERENGUER (FDC)\nVisitante: AJ PLA DE LLOBREGAT A\n\nPabellón: Institut Bisbe Berenguer\nDirección: C/ Aprestadora\, 49\nMapa: https://www.google.com/maps/search/?api=1&query=C/%20Aprestadora%2C%2049\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24939
+DESCRIPTION:Jornada 8 liga escolar\n\nCondición: Local\nLocal: AFA INSTITUT BISBE BERENGUER (FDC)\nVisitante: AJ PLA DE LLOBREGAT A\n\nPabellón: Institut Bisbe Berenguer\nDirección: C/ Aprestadora\, 49\nMapa: https://www.google.com/maps/search/?api=1&query=C/%20Aprestadora%2C%2049\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24939
 DTEND:20260417T170000Z
 LOCATION:Institut Bisbe Berenguer
 DTSTART:20260417T160000Z
@@ -33,7 +33,7 @@ URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?a
 END:VEVENT
 BEGIN:VEVENT
 {'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=79200), 'description': 'Recordatorio partido'}
-DESCRIPTION:Partido liga escolar\n\nCondición: Visitante\nLocal: INSTITUT PEDRAFORCA\nVisitante: AFA INSTITUT BISBE BERENGUER (FDC)\n\nPabellón: Poliesportiu Municipal Gornal\nDirección: C/ Can Tries\, 20\nMapa: https://www.google.com/maps/search/?api=1&query=C/%20Can%20Tries%2C%2020\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24937
+DESCRIPTION:Jornada 7 liga escolar\n\nCondición: Visitante\nLocal: INSTITUT PEDRAFORCA\nVisitante: AFA INSTITUT BISBE BERENGUER (FDC)\n\nPabellón: Poliesportiu Municipal Gornal\nDirección: C/ Can Tries\, 20\nMapa: https://www.google.com/maps/search/?api=1&query=C/%20Can%20Tries%2C%2020\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24937
 DTEND:20260411T120000Z
 LOCATION:Poliesportiu Municipal Gornal
 DTSTART:20260411T110000Z
@@ -43,7 +43,7 @@ URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?a
 END:VEVENT
 BEGIN:VEVENT
 {'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=79200), 'description': 'Recordatorio partido'}
-DESCRIPTION:Partido liga escolar\n\nCondición: Local\nLocal: AFA INSTITUT BISBE BERENGUER (FDC)\nVisitante: INSTITUT RUBIO I ORS\n\nPabellón: Institut Bisbe Berenguer\nDirección: C/ Aprestadora\, 49\nMapa: https://www.google.com/maps/search/?api=1&query=C/%20Aprestadora%2C%2049\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24934
+DESCRIPTION:Jornada 6 liga escolar\n\nCondición: Local\nLocal: AFA INSTITUT BISBE BERENGUER (FDC)\nVisitante: INSTITUT RUBIO I ORS\n\nPabellón: Institut Bisbe Berenguer\nDirección: C/ Aprestadora\, 49\nMapa: https://www.google.com/maps/search/?api=1&query=C/%20Aprestadora%2C%2049\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24934
 DTEND:20260320T180000Z
 LOCATION:Institut Bisbe Berenguer
 DTSTART:20260320T170000Z
@@ -53,7 +53,7 @@ URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?a
 END:VEVENT
 BEGIN:VEVENT
 {'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=79200), 'description': 'Recordatorio partido'}
-DESCRIPTION:Partido liga escolar\n\nCondición: Visitante\nLocal: J23\nVisitante: AFA INSTITUT BISBE BERENGUER (FDC)\n\nPabellón: Jesuïtes Bellvitge - CE Joan XXIII\nDirección: Av. Mare de Deu Bellvitge\, 100-110\nMapa: https://www.google.com/maps/search/?api=1&query=Av.%20Mare%20de%20Deu%20Bellvitge%2C%20100-110\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24930
+DESCRIPTION:Jornada 4 liga escolar\n\nCondición: Visitante\nLocal: J23\nVisitante: AFA INSTITUT BISBE BERENGUER (FDC)\n\nPabellón: Jesuïtes Bellvitge - CE Joan XXIII\nDirección: Av. Mare de Deu Bellvitge\, 100-110\nMapa: https://www.google.com/maps/search/?api=1&query=Av.%20Mare%20de%20Deu%20Bellvitge%2C%20100-110\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24930
 DTEND:20260306T194500Z
 LOCATION:Jesuïtes Bellvitge - CE Joan XXIII
 DTSTART:20260306T184500Z
@@ -63,7 +63,7 @@ URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?a
 END:VEVENT
 BEGIN:VEVENT
 {'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=79200), 'description': 'Recordatorio partido'}
-DESCRIPTION:Partido liga escolar\n\nCondición: Visitante\nLocal: AJ PLA DE LLOBREGAT A\nVisitante: AFA INSTITUT BISBE BERENGUER (FDC)\n\nPabellón: Institut Escola Gornal\nDirección: Av. Carmen Amaya\, 44\nMapa: https://www.google.com/maps/search/?api=1&query=Av.%20Carmen%20Amaya%2C%2044\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24929
+DESCRIPTION:Jornada 3 liga escolar\n\nCondición: Visitante\nLocal: AJ PLA DE LLOBREGAT A\nVisitante: AFA INSTITUT BISBE BERENGUER (FDC)\n\nPabellón: Institut Escola Gornal\nDirección: Av. Carmen Amaya\, 44\nMapa: https://www.google.com/maps/search/?api=1&query=Av.%20Carmen%20Amaya%2C%2044\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24929
 DTEND:20260228T090000Z
 LOCATION:Institut Escola Gornal
 DTSTART:20260228T080000Z
@@ -73,7 +73,7 @@ URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?a
 END:VEVENT
 BEGIN:VEVENT
 {'action': 'display', 'trigger': datetime.timedelta(days=-1, seconds=79200), 'description': 'Recordatorio partido'}
-DESCRIPTION:Partido liga escolar\n\nCondición: Local\nLocal: AFA INSTITUT BISBE BERENGUER (FDC)\nVisitante: INSTITUT PEDRAFORCA\n\nPabellón: Institut Bisbe Berenguer\nDirección: C/ Aprestadora\, 49\nMapa: https://www.google.com/maps/search/?api=1&query=C/%20Aprestadora%2C%2049\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24927
+DESCRIPTION:Jornada 2 liga escolar\n\nCondición: Local\nLocal: AFA INSTITUT BISBE BERENGUER (FDC)\nVisitante: INSTITUT PEDRAFORCA\n\nPabellón: Institut Bisbe Berenguer\nDirección: C/ Aprestadora\, 49\nMapa: https://www.google.com/maps/search/?api=1&query=C/%20Aprestadora%2C%2049\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24927
 DTEND:20260220T180000Z
 LOCATION:Institut Bisbe Berenguer
 DTSTART:20260220T170000Z
