@@ -1,4 +1,4 @@
-name: Actualizar calendario
+name: Actualizar calendario FAF
 
 on:
   schedule:
