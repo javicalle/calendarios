@@ -37,6 +37,8 @@ calendar = Calendar()
 
 # resultados = soup.find_all("table", class_="fcftable")
 partidos = soup.find("table", class_="fcftable").find('tbody').find_all('tr')
+print("partidos" + partidos)
+
 # partidos = soup.select("table.fcftable tbody tr")
 
 for partido in partidos:
@@ -51,6 +53,8 @@ for partido in partidos:
     visitante = cols[4].a.get_text(strip=True)
     visitante_link = cols[4].a.get('href').replace(f"{BASE_URL}equip/{TEMPORADA}/", '')
     resultado = cols[5].get_text(strip=True)
+
+    print(f"--> {jornada} {fecha} {hora} {local} {visitante}")
 
     if FAF not in local and FAF not in visitante:
         continue
