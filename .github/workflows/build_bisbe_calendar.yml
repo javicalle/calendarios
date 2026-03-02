@@ -18,7 +18,7 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: python genera_calendario.py
+      - run: python genera_bisbe_calendar.py
 
       - name: Commit cambios
         run: |
