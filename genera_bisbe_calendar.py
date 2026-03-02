@@ -107,7 +107,7 @@ for resultado in resultados:
     
         calendar.events.add(evento)
 
-with open("calendario.ics", "w", encoding="utf-8") as f:
+with open("bisbe_calendar.ics", "w", encoding="utf-8") as f:
     f.writelines(calendar)
 
 print("Calendario PRO generado correctamente.")
