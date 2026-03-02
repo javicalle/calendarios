@@ -37,7 +37,7 @@ calendar = Calendar()
 
 # resultados = soup.find_all("table", class_="fcftable")
 partidos = soup.find("table", class_="fcftable").find('tbody').find_all('tr')
-print("partidos" + partidos)
+print("partidos" + str(partidos))
 
 # partidos = soup.select("table.fcftable tbody tr")
 
