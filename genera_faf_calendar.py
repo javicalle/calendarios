@@ -84,7 +84,7 @@ for partido in partidos:
     # enlace_maps = f"https://www.google.com/maps/search/?api=1&query={maps_query}"
 
     # ---- Enlace detalle partido ----
-    enlace_detalle = f"{BASE_URL}calendari-equip/{TEMPORADA}/{DISCIPLINA}/{COMPETICION}/{GRUPO}/{local_link}/{visitante_link}"
+    enlace_detalle = f"{BASE_URL}acta/{TEMPORADA}/{DISCIPLINA}/{COMPETICION}/{GRUPO}/{local_link}/{visitante_link}"
 
     # ---- Crear evento ----
     evento = Event()
@@ -100,7 +100,7 @@ for partido in partidos:
     evento.url = enlace_detalle
 
     evento.description = (
-        f"{jornada} liga escolar\n\n"
+        f"Jornada {jornada}\n\n"
         f"Condición: {condicion}\n"
         f"Local: {local}\n"
         f"Visitante: {visitante}\n\n"
