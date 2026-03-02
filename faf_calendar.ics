@@ -2,243 +2,243 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:15 liga escolar\n\nCondición: Visitante\nLocal: SANTS\, U.E. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sants-ue-a/pi14/fundacio-academia-f-lhospitalet-a
+DESCRIPTION:Jornada 15\n\nCondición: Visitante\nLocal: SANTS\, U.E. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sants-ue-a/pi14/fundacio-academia-f-lhospitalet-a
 DTEND:20260117T203000Z
 DTSTART:20260117T190000Z
 SUMMARY:🚗 SANTS\, U.E. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:44ef280955543f363263d908b82d3873
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sants-ue-a/pi14/fundacio-academia-f-lhospitalet-a
+UID:87b6b9051089400ea7205ab46321f60a
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sants-ue-a/pi14/fundacio-academia-f-lhospitalet-a
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:28 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: PRAT\, A.E. A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/prat-ae-a
-DTEND:20260503T095500Z
-DTSTART:20260503T082500Z
-SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs PRAT\, A.E. A
-UID:2c78b917ab68b5776c006c26857e3632
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/prat-ae-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:12 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: SANT ANDREU DE LA BARCA AGRUP. A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sant-andreu-de-la-barca-agrup-a
-DTEND:20251214T130000Z
-DTSTART:20251214T113000Z
-SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs SANT ANDREU DE LA BARCA AGRUP. A
-UID:428d03566789ee467807b3aa55e17da4
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sant-andreu-de-la-barca-agrup-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:16 liga escolar\n\nCondición: Visitante\nLocal: SANT GABRIEL\, C.D. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sant-gabriel-cd-a/pi14/fundacio-academia-f-lhospitalet-a
-DTEND:20260125T160000Z
-DTSTART:20260125T143000Z
-SUMMARY:🚗 SANT GABRIEL\, C.D. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:7ae636aae7a74a8056ace0c2c5f971c8
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sant-gabriel-cd-a/pi14/fundacio-academia-f-lhospitalet-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:5 liga escolar\n\nCondición: Visitante\nLocal: Pª BARC. ANGUERA A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/pa-barc-anguera-a/pi14/fundacio-academia-f-lhospitalet-a
-DTEND:20251019T120000Z
-DTSTART:20251019T103000Z
-SUMMARY:🚗 Pª BARC. ANGUERA A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:d8024aff6e318a0e6f7029bce15357cd
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/pa-barc-anguera-a/pi14/fundacio-academia-f-lhospitalet-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:22 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: HORTA\, U.AT. A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/horta-uat-a
-DTEND:20260315T105500Z
-DTSTART:20260315T092500Z
-SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs HORTA\, U.AT. A
-UID:8057f9a8b532575d1ca9cd2f6ad214fb
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/horta-uat-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:4 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: MARTINENC\, F.C. A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/martinenc-fc-a
-DTEND:20251012T095500Z
-DTSTART:20251012T082500Z
-SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs MARTINENC\, F.C. A
-UID:c3c3820b3d7629fbac5d1d9a8648256a
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/martinenc-fc-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:23 liga escolar\n\nCondición: Visitante\nLocal: SARRIA\, C.P. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sarria-cp-a/pi14/fundacio-academia-f-lhospitalet-a
-DTEND:20260321T150000Z
-DTSTART:20260321T133000Z
-SUMMARY:🚗 SARRIA\, C.P. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:fb209ed407d6c99094270837fae58834
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sarria-cp-a/pi14/fundacio-academia-f-lhospitalet-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:24 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: SANTBOIA\, F.C. A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/santboia-fc-a
-DTEND:20260329T095500Z
-DTSTART:20260329T082500Z
-SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs SANTBOIA\, F.C. A
-UID:9077d46c5906af50b7dd11c0c3ce8866
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/santboia-fc-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:27 liga escolar\n\nCondición: Visitante\nLocal: SANT ANDREU DE LA BARCA AGRUP. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sant-andreu-de-la-barca-agrup-a/pi14/fundacio-academia-f-lhospitalet-a
-DTEND:20260426T120000Z
-DTSTART:20260426T103000Z
-SUMMARY:🚗 SANT ANDREU DE LA BARCA AGRUP. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:898cca88092443f2d28972821eeba63c
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sant-andreu-de-la-barca-agrup-a/pi14/fundacio-academia-f-lhospitalet-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:11 liga escolar\n\nCondición: Visitante\nLocal: FUNDACIO UNIO ESPORTIVA CORNELLA A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-unio-esportiva-cornella-a/pi14/fundacio-academia-f-lhospitalet-a
-DTEND:20251129T173000Z
-DTSTART:20251129T160000Z
-SUMMARY:🚗 FUNDACIO UNIO ESPORTIVA CORNELLA A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:e37d17915e7c301dc6cef87e063c603e
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-unio-esportiva-cornella-a/pi14/fundacio-academia-f-lhospitalet-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:2 liga escolar\n\nCondición: Visitante\nLocal: FUNDACIO ATLETIC SANT JUST  A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-atletic-sant-just-a/pi14/fundacio-academia-f-lhospitalet-a
-DTEND:20250927T123500Z
-DTSTART:20250927T110500Z
-SUMMARY:🚗 FUNDACIO ATLETIC SANT JUST  A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:5acd84eb744c01461f61b1276407210b
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-atletic-sant-just-a/pi14/fundacio-academia-f-lhospitalet-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:29 liga escolar\n\nCondición: Visitante\nLocal: Pª BARC. CINC COPES A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/pa-barc-cinc-copes-a/pi14/fundacio-academia-f-lhospitalet-a
-DTEND:20260509T143000Z
-DTSTART:20260509T130000Z
-SUMMARY:🚗 Pª BARC. CINC COPES A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:50cbee955bb3feea4b5c6d3e3ece2f32
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/pa-barc-cinc-copes-a/pi14/fundacio-academia-f-lhospitalet-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:18 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: VILA OLIMPICA CLUB ESP. A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/vila-olimpica-club-esp-a
-DTEND:20260208T115000Z
-DTSTART:20260208T102000Z
-SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs VILA OLIMPICA CLUB ESP. A
-UID:d2f829ce2693fa1dd690fee9e303504f
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/vila-olimpica-club-esp-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:21 liga escolar\n\nCondición: Visitante\nLocal: L\\'HOSPITALET\, CENTRE ESPORTS B\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/lhospitalet-centre-esports-b/pi14/fundacio-academia-f-lhospitalet-a
-DTEND:20260307T121500Z
-DTSTART:20260307T104500Z
-SUMMARY:🚗 L\\'HOSPITALET\, CENTRE ESPORTS B vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:fd6b5e9d8f9e68ddf6dc291567f7ca77
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/lhospitalet-centre-esports-b/pi14/fundacio-academia-f-lhospitalet-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:1 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: SANT GABRIEL\, C.D. A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sant-gabriel-cd-a
-DTEND:20250921T101500Z
-DTSTART:20250921T084500Z
-SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs SANT GABRIEL\, C.D. A
-UID:d35bc885e48db55e4dde14433f0752be
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sant-gabriel-cd-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:25 liga escolar\n\nCondición: Visitante\nLocal: EUROPA\, C.E. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/europa-ce-a/pi14/fundacio-academia-f-lhospitalet-a
-DTEND:20260411T143000Z
-DTSTART:20260411T130000Z
-SUMMARY:🚗 EUROPA\, C.E. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:3db0e8150f1746ac9a08f379ea4bd991
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/europa-ce-a/pi14/fundacio-academia-f-lhospitalet-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:19 liga escolar\n\nCondición: Visitante\nLocal: MARTINENC\, F.C. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/martinenc-fc-a/pi14/fundacio-academia-f-lhospitalet-a
-DTEND:20260222T144500Z
-DTSTART:20260222T131500Z
-SUMMARY:🚗 MARTINENC\, F.C. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:ce96feed4bed61117dc7658ed8a03aa6
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/martinenc-fc-a/pi14/fundacio-academia-f-lhospitalet-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:13 liga escolar\n\nCondición: Visitante\nLocal: PRAT\, A.E. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/prat-ae-a/pi14/fundacio-academia-f-lhospitalet-a
-DTEND:20251220T145000Z
-DTSTART:20251220T132000Z
-SUMMARY:🚗 PRAT\, A.E. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:7e63337b81132e98b4ff782ff4dd42a7
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/prat-ae-a/pi14/fundacio-academia-f-lhospitalet-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:10 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: EUROPA\, C.E. A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/europa-ce-a
-DTEND:20251123T123000Z
-DTSTART:20251123T110000Z
-SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs EUROPA\, C.E. A
-UID:ab370aaec66c85633b6c50073935505a
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/europa-ce-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:9 liga escolar\n\nCondición: Visitante\nLocal: SANTBOIA\, F.C. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/santboia-fc-a/pi14/fundacio-academia-f-lhospitalet-a
-DTEND:20251116T124500Z
-DTSTART:20251116T111500Z
-SUMMARY:🚗 SANTBOIA\, F.C. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:615b93663e9cd25d759633b0999e9f42
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/santboia-fc-a/pi14/fundacio-academia-f-lhospitalet-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:17 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: FUNDACIO ATLETIC SANT JUST  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/fundacio-atletic-sant-just-a
-DTEND:20260131T163000Z
-DTSTART:20260131T150000Z
-SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs FUNDACIO ATLETIC SANT JUST  A
-UID:a635938197ec87ecefe16262b8f1ba79
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/fundacio-atletic-sant-just-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:3 liga escolar\n\nCondición: Visitante\nLocal: VILA OLIMPICA CLUB ESP. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/vila-olimpica-club-esp-a/pi14/fundacio-academia-f-lhospitalet-a
-DTEND:20251005T133000Z
-DTSTART:20251005T120000Z
-SUMMARY:🚗 VILA OLIMPICA CLUB ESP. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:bd0fef64b427b02dc298c2cd20183ef5
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/vila-olimpica-club-esp-a/pi14/fundacio-academia-f-lhospitalet-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:20 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: Pª BARC. ANGUERA A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/pa-barc-anguera-a
-DTEND:20260228T110000Z
-DTSTART:20260228T093000Z
-SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs Pª BARC. ANGUERA A
-UID:e79c0f818977952ede777ea3268dd7f9
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/pa-barc-anguera-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:7 liga escolar\n\nCondición: Visitante\nLocal: HORTA\, U.AT. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/horta-uat-a/pi14/fundacio-academia-f-lhospitalet-a
-DTEND:20251101T123000Z
-DTSTART:20251101T110000Z
-SUMMARY:🚗 HORTA\, U.AT. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
-UID:007c0670c99292120ee1c2c210f5525d
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/horta-uat-a/pi14/fundacio-academia-f-lhospitalet-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:14 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: Pª BARC. CINC COPES A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/pa-barc-cinc-copes-a
-DTEND:20260111T143000Z
-DTSTART:20260111T130000Z
-SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs Pª BARC. CINC COPES A
-UID:5121246340c0f434a58950dceb5416ee
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/pa-barc-cinc-copes-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:26 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: FUNDACIO UNIO ESPORTIVA CORNELLA A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/fundacio-unio-esportiva-cornella-a
-DTEND:20260419T095500Z
-DTSTART:20260419T082500Z
-SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs FUNDACIO UNIO ESPORTIVA CORNELLA A
-UID:8dd88a29e0baedf80c313e64798815e7
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/fundacio-unio-esportiva-cornella-a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:8 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: SARRIA\, C.P. A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sarria-cp-a
+DESCRIPTION:Jornada 8\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: SARRIA\, C.P. A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sarria-cp-a
 DTEND:20251109T150000Z
 DTSTART:20251109T133000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs SARRIA\, C.P. A
-UID:3d977eb09df9cd068c642e21be585191
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sarria-cp-a
+UID:eaabc7fedfb6834f657029835cba39d9
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sarria-cp-a
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:6 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: L\\'HOSPITALET\, CENTRE ESPORTS B\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/lhospitalet-centre-esports-b
+DESCRIPTION:Jornada 6\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: L\\'HOSPITALET\, CENTRE ESPORTS B\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/lhospitalet-centre-esports-b
 DTEND:20251025T113000Z
 DTSTART:20251025T100000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs L\\'HOSPITALET\, CENTRE ESPORTS B
-UID:ab3f5ce3181dc4997fc3013f7564b74c
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/lhospitalet-centre-esports-b
+UID:c4e83e2290e18b40930769d0e2a5a5d7
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/lhospitalet-centre-esports-b
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:30 liga escolar\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: SANTS\, U.E. A\n\nDetalle del partido:\nhttps://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sants-ue-a
+DESCRIPTION:Jornada 5\n\nCondición: Visitante\nLocal: Pª BARC. ANGUERA A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/pa-barc-anguera-a/pi14/fundacio-academia-f-lhospitalet-a
+DTEND:20251019T120000Z
+DTSTART:20251019T103000Z
+SUMMARY:🚗 Pª BARC. ANGUERA A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
+UID:2c39f16b539aa69e7413eff5e5d5cecc
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/pa-barc-anguera-a/pi14/fundacio-academia-f-lhospitalet-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 29\n\nCondición: Visitante\nLocal: Pª BARC. CINC COPES A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/pa-barc-cinc-copes-a/pi14/fundacio-academia-f-lhospitalet-a
+DTEND:20260509T143000Z
+DTSTART:20260509T130000Z
+SUMMARY:🚗 Pª BARC. CINC COPES A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
+UID:b63e9b3daa34e3de6c94a0004c3ecf07
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/pa-barc-cinc-copes-a/pi14/fundacio-academia-f-lhospitalet-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 17\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: FUNDACIO ATLETIC SANT JUST  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/fundacio-atletic-sant-just-a
+DTEND:20260131T163000Z
+DTSTART:20260131T150000Z
+SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs FUNDACIO ATLETIC SANT JUST  A
+UID:38e3b5abc9bc6205eb2e0674c2094df8
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/fundacio-atletic-sant-just-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 30\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: SANTS\, U.E. A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sants-ue-a
 DTEND:20260517T095500Z
 DTSTART:20260517T082500Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs SANTS\, U.E. A
-UID:b3519a81f7a5652e7d8ba9abe253ea87
-URL:https://www.fcf.cat/calendari-equip/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sants-ue-a
+UID:38125bbf3592373d34d1b762e50330d9
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sants-ue-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 9\n\nCondición: Visitante\nLocal: SANTBOIA\, F.C. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/santboia-fc-a/pi14/fundacio-academia-f-lhospitalet-a
+DTEND:20251116T124500Z
+DTSTART:20251116T111500Z
+SUMMARY:🚗 SANTBOIA\, F.C. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
+UID:c063f2fa77f530b3e7e5d61ef688eaea
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/santboia-fc-a/pi14/fundacio-academia-f-lhospitalet-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 12\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: SANT ANDREU DE LA BARCA AGRUP. A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sant-andreu-de-la-barca-agrup-a
+DTEND:20251214T130000Z
+DTSTART:20251214T113000Z
+SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs SANT ANDREU DE LA BARCA AGRUP. A
+UID:3f663b18c1cfe121a5f068dc367b172d
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sant-andreu-de-la-barca-agrup-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 18\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: VILA OLIMPICA CLUB ESP. A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/vila-olimpica-club-esp-a
+DTEND:20260208T115000Z
+DTSTART:20260208T102000Z
+SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs VILA OLIMPICA CLUB ESP. A
+UID:2728745125eee7f7af2fb8db75a7984f
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/vila-olimpica-club-esp-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 14\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: Pª BARC. CINC COPES A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/pa-barc-cinc-copes-a
+DTEND:20260111T143000Z
+DTSTART:20260111T130000Z
+SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs Pª BARC. CINC COPES A
+UID:495b768ad58dada99c2ad62f34f1db60
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/pa-barc-cinc-copes-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 21\n\nCondición: Visitante\nLocal: L\\'HOSPITALET\, CENTRE ESPORTS B\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/lhospitalet-centre-esports-b/pi14/fundacio-academia-f-lhospitalet-a
+DTEND:20260307T121500Z
+DTSTART:20260307T104500Z
+SUMMARY:🚗 L\\'HOSPITALET\, CENTRE ESPORTS B vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
+UID:68c00531508170184b50f6269247032a
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/lhospitalet-centre-esports-b/pi14/fundacio-academia-f-lhospitalet-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 28\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: PRAT\, A.E. A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/prat-ae-a
+DTEND:20260503T095500Z
+DTSTART:20260503T082500Z
+SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs PRAT\, A.E. A
+UID:6ec54bf7a5724f7d4e84e9ae31f38a67
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/prat-ae-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 10\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: EUROPA\, C.E. A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/europa-ce-a
+DTEND:20251123T123000Z
+DTSTART:20251123T110000Z
+SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs EUROPA\, C.E. A
+UID:fb205f13a36bd9341095b6d4c92744c9
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/europa-ce-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 2\n\nCondición: Visitante\nLocal: FUNDACIO ATLETIC SANT JUST  A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-atletic-sant-just-a/pi14/fundacio-academia-f-lhospitalet-a
+DTEND:20250927T123500Z
+DTSTART:20250927T110500Z
+SUMMARY:🚗 FUNDACIO ATLETIC SANT JUST  A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
+UID:a68c03406caaeb32e74739f026546564
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-atletic-sant-just-a/pi14/fundacio-academia-f-lhospitalet-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 23\n\nCondición: Visitante\nLocal: SARRIA\, C.P. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sarria-cp-a/pi14/fundacio-academia-f-lhospitalet-a
+DTEND:20260321T150000Z
+DTSTART:20260321T133000Z
+SUMMARY:🚗 SARRIA\, C.P. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
+UID:080f13a65b68426bdf6042f6af98be44
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sarria-cp-a/pi14/fundacio-academia-f-lhospitalet-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 24\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: SANTBOIA\, F.C. A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/santboia-fc-a
+DTEND:20260329T095500Z
+DTSTART:20260329T082500Z
+SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs SANTBOIA\, F.C. A
+UID:8d1227a62ac88939d07746e2c3b7e5b3
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/santboia-fc-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 4\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: MARTINENC\, F.C. A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/martinenc-fc-a
+DTEND:20251012T095500Z
+DTSTART:20251012T082500Z
+SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs MARTINENC\, F.C. A
+UID:809aa48a90e0d51d5c8323ee88def744
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/martinenc-fc-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 16\n\nCondición: Visitante\nLocal: SANT GABRIEL\, C.D. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sant-gabriel-cd-a/pi14/fundacio-academia-f-lhospitalet-a
+DTEND:20260125T160000Z
+DTSTART:20260125T143000Z
+SUMMARY:🚗 SANT GABRIEL\, C.D. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
+UID:933535a81f76475e25f9ac8099a4b540
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sant-gabriel-cd-a/pi14/fundacio-academia-f-lhospitalet-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 20\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: Pª BARC. ANGUERA A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/pa-barc-anguera-a
+DTEND:20260228T110000Z
+DTSTART:20260228T093000Z
+SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs Pª BARC. ANGUERA A
+UID:b2a45877177ffdccb174f2ca4e9906b1
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/pa-barc-anguera-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 1\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: SANT GABRIEL\, C.D. A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sant-gabriel-cd-a
+DTEND:20250921T101500Z
+DTSTART:20250921T084500Z
+SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs SANT GABRIEL\, C.D. A
+UID:b6ea164eba6c937edbfb264a126163c1
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/sant-gabriel-cd-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 19\n\nCondición: Visitante\nLocal: MARTINENC\, F.C. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/martinenc-fc-a/pi14/fundacio-academia-f-lhospitalet-a
+DTEND:20260222T144500Z
+DTSTART:20260222T131500Z
+SUMMARY:🚗 MARTINENC\, F.C. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
+UID:2d86b52c0018d5fdb5539a4a30474258
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/martinenc-fc-a/pi14/fundacio-academia-f-lhospitalet-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 13\n\nCondición: Visitante\nLocal: PRAT\, A.E. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/prat-ae-a/pi14/fundacio-academia-f-lhospitalet-a
+DTEND:20251220T145000Z
+DTSTART:20251220T132000Z
+SUMMARY:🚗 PRAT\, A.E. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
+UID:bc1906e2b7f12262d7d1a8354a4884c5
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/prat-ae-a/pi14/fundacio-academia-f-lhospitalet-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 7\n\nCondición: Visitante\nLocal: HORTA\, U.AT. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/horta-uat-a/pi14/fundacio-academia-f-lhospitalet-a
+DTEND:20251101T123000Z
+DTSTART:20251101T110000Z
+SUMMARY:🚗 HORTA\, U.AT. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
+UID:9bed6251999bc0ad4ebafdc4bff53137
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/horta-uat-a/pi14/fundacio-academia-f-lhospitalet-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 3\n\nCondición: Visitante\nLocal: VILA OLIMPICA CLUB ESP. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/vila-olimpica-club-esp-a/pi14/fundacio-academia-f-lhospitalet-a
+DTEND:20251005T133000Z
+DTSTART:20251005T120000Z
+SUMMARY:🚗 VILA OLIMPICA CLUB ESP. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
+UID:4104945251a8f7746492c51273375a26
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/vila-olimpica-club-esp-a/pi14/fundacio-academia-f-lhospitalet-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 26\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: FUNDACIO UNIO ESPORTIVA CORNELLA A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/fundacio-unio-esportiva-cornella-a
+DTEND:20260419T095500Z
+DTSTART:20260419T082500Z
+SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs FUNDACIO UNIO ESPORTIVA CORNELLA A
+UID:b09c57fc8076aab83a8bb0fe3e8b266a
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/fundacio-unio-esportiva-cornella-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 11\n\nCondición: Visitante\nLocal: FUNDACIO UNIO ESPORTIVA CORNELLA A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-unio-esportiva-cornella-a/pi14/fundacio-academia-f-lhospitalet-a
+DTEND:20251129T173000Z
+DTSTART:20251129T160000Z
+SUMMARY:🚗 FUNDACIO UNIO ESPORTIVA CORNELLA A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
+UID:7e9c57dbf3cd5a0ac8f37c9ce12dacf2
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-unio-esportiva-cornella-a/pi14/fundacio-academia-f-lhospitalet-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 25\n\nCondición: Visitante\nLocal: EUROPA\, C.E. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/europa-ce-a/pi14/fundacio-academia-f-lhospitalet-a
+DTEND:20260411T143000Z
+DTSTART:20260411T130000Z
+SUMMARY:🚗 EUROPA\, C.E. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
+UID:b31361f571f9ae74665519336e176e0e
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/europa-ce-a/pi14/fundacio-academia-f-lhospitalet-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 27\n\nCondición: Visitante\nLocal: SANT ANDREU DE LA BARCA AGRUP. A\nVisitante: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sant-andreu-de-la-barca-agrup-a/pi14/fundacio-academia-f-lhospitalet-a
+DTEND:20260426T120000Z
+DTSTART:20260426T103000Z
+SUMMARY:🚗 SANT ANDREU DE LA BARCA AGRUP. A vs FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A
+UID:da03f56fe030cc616437901480afd7f3
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sant-andreu-de-la-barca-agrup-a/pi14/fundacio-academia-f-lhospitalet-a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 22\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A\nVisitante: HORTA\, U.AT. A\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/horta-uat-a
+DTEND:20260315T105500Z
+DTSTART:20260315T092500Z
+SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L\\'HOSPITALET  A vs HORTA\, U.AT. A
+UID:985ea9f8e430e40cdc6435742ee5500d
+URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-academia-f-lhospitalet-a/pi14/horta-uat-a
 END:VEVENT
 END:VCALENDAR
