@@ -30,6 +30,37 @@ CALENDAR_URL = f"{BASE_URL}calendari-equip/{TEMPORADA}/{DISCIPLINA}/{COMPETICION
 DURACION_HORAS = 1.5
 ZONA = ZoneInfo("Europe/Madrid")
 
+# función para recuperar los datos del estadio desde la página del acta
+def obtener_estadi(url):
+    try:
+        r = requests.get(url, timeout=10)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        tablas = soup.find_all("table", class_="acta-table")
+
+        for tabla in tablas:
+            th = tabla.find("th")
+            if th and th.get_text(strip=True) == "Estadi":
+                filas = tabla.find("tbody").find_all("tr")
+
+                # 1️⃣ Nombre del campo
+                nombre_campo = filas[0].find("a").get_text(strip=True)
+
+                # 2️⃣ Enlace Google Maps
+                enlace_maps = filas[1].find("a").get("href")
+
+                # 3️⃣ Dirección
+                direccion = filas[2].find("td").get_text(strip=True)
+
+                return nombre_campo, direccion, enlace_maps
+
+        return "", "", ""
+
+    except Exception:
+        return "", "", ""
+
+
 response = requests.get(CALENDAR_URL)
 response.raise_for_status()
 
@@ -129,32 +160,3 @@ with open("faf_calendar.ics", "w", encoding="utf-8") as f:
     f.writelines(calendar)
 
 print("Calendario FAF generado correctamente.")
-
-def obtener_estadi(url):
-    try:
-        r = requests.get(url, timeout=10)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, "html.parser")
-
-        tablas = soup.find_all("table", class_="acta-table")
-
-        for tabla in tablas:
-            th = tabla.find("th")
-            if th and th.get_text(strip=True) == "Estadi":
-                filas = tabla.find("tbody").find_all("tr")
-
-                # 1️⃣ Nombre del campo
-                nombre_campo = filas[0].find("a").get_text(strip=True)
-
-                # 2️⃣ Enlace Google Maps
-                enlace_maps = filas[1].find("a").get("href")
-
-                # 3️⃣ Dirección
-                direccion = filas[2].find("td").get_text(strip=True)
-
-                return nombre_campo, direccion, enlace_maps
-
-        return "", "", ""
-
-    except Exception:
-        return "", "", ""
