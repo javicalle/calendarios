@@ -42,6 +42,8 @@ partidos = soup.find("table", class_="fcftable").find('tbody').find_all('tr')
 
 # partidos = soup.select("table.fcftable tbody tr")
 
+cache_estadis = {}
+
 for partido in partidos:
 
     cols = partido.find_all("td")  
@@ -73,19 +75,18 @@ for partido in partidos:
         icono = "🚗"
         condicion = "Visitante"
 
-    # # ---- Extraer nombre pabellón y dirección ----
-    # partes_lugar = [p.strip() for p in lugar_raw.split("\n") if p.strip()]
-
-    # direccion = partes_lugar[0] if len(partes_lugar) > 0 else ""
-    # pabellon = partes_lugar[2] if len(partes_lugar) > 1 else direccion
-
-    # # Enlace Google Maps con dirección completa
-    # maps_query = urllib.parse.quote(direccion)
-    # enlace_maps = f"https://www.google.com/maps/search/?api=1&query={maps_query}"
-
     # ---- Enlace detalle partido ----
     enlace_detalle = f"{BASE_URL}acta/{TEMPORADA}/{DISCIPLINA}/{COMPETICION}/{GRUPO}/{local_link}/{visitante_link}"
 
+    # ---- Extraer nombre del campo y dirección ----
+    # nombre_campo, direccion, enlace_maps = obtener_estadi(enlace_detalle)
+
+    if local not in cache_estadis:  # suponemos que el campo siempre depende solo del equipo local
+        cache_estadis[local] = obtener_estadi(enlace_detalle)
+
+    nombre_campo, direccion, enlace_maps = cache_estadis[local]
+
+    
     # ---- Crear evento ----
     evento = Event()
 
@@ -94,8 +95,8 @@ for partido in partidos:
     evento.begin = fecha
     evento.end = fecha + timedelta(hours=DURACION_HORAS)
 
-    # # Ubicación visible en calendario = nombre pabellón
-    # evento.location = pabellon
+    if nombre_campo:
+        evento.location = nombre_campo
 
     evento.url = enlace_detalle
 
@@ -104,6 +105,9 @@ for partido in partidos:
         f"Condición: {condicion}\n"
         f"Local: {local}\n"
         f"Visitante: {visitante}\n\n"
+        f"Estadi: {nombre_campo}\n"
+        f"Dirección: {direccion}\n"
+        f"Google Maps: {enlace_maps}\n\n"
         f"Detalle del partido:\n{enlace_detalle}"
     )
 
@@ -125,3 +129,32 @@ with open("faf_calendar.ics", "w", encoding="utf-8") as f:
     f.writelines(calendar)
 
 print("Calendario FAF generado correctamente.")
+
+def obtener_estadi(url):
+    try:
+        r = requests.get(url, timeout=10)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        tablas = soup.find_all("table", class_="acta-table")
+
+        for tabla in tablas:
+            th = tabla.find("th")
+            if th and th.get_text(strip=True) == "Estadi":
+                filas = tabla.find("tbody").find_all("tr")
+
+                # 1️⃣ Nombre del campo
+                nombre_campo = filas[0].find("a").get_text(strip=True)
+
+                # 2️⃣ Enlace Google Maps
+                enlace_maps = filas[1].find("a").get("href")
+
+                # 3️⃣ Dirección
+                direccion = filas[2].find("td").get_text(strip=True)
+
+                return nombre_campo, direccion, enlace_maps
+
+        return "", "", ""
+
+    except Exception:
+        return "", "", ""
