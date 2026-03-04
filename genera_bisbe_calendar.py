@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from ics import Calendar, Event
-from ics.marshal import ContentLine
+from ics.grammar.parse import ContentLine
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import hashlib
@@ -112,9 +112,9 @@ for resultado in resultados:
 calendar.extra.append(ContentLine(name="X-WR-CALNAME", value="Futbol Sala Bisbe Berenguer 25/26"))
 calendar.extra.append(ContentLine(name="X-WR-TIMEZONE", value="Europe/Madrid"))
 
-# with open("bisbe_calendar.ics", "w", encoding="utf-8") as f:
-#     f.writelines(calendar)
-with open("bisbe_calendar.ics", "w", encoding="utf-8", newline='') as f:
-    f.write(calendar.serialize())
+with open("bisbe_calendar.ics", "w", encoding="utf-8") as f:
+    f.writelines(calendar)
+# with open("bisbe_calendar.ics", "w", encoding="utf-8", newline='') as f:
+#     f.write(calendar.serialize())
 
 print("Calendario PRO generado correctamente.")
