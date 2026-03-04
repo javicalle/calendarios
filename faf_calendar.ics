@@ -1,4 +1,6 @@
 BEGIN:VCALENDAR
+X-WR-CALNAME:FAF Infantil S14 A
+X-WR-TIMEZONE:Europe/Madrid
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
