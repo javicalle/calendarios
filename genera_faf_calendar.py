@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from ics import Calendar, Event
-from ics.contentline.container import ContentLine
+from ics import Calendar, ContentLine, Event
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import hashlib
