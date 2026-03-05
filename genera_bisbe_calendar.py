@@ -112,7 +112,7 @@ for resultado in resultados:
 calendar.extra.append(ContentLine(name="X-WR-CALNAME", value="Futbol Sala Bisbe Berenguer 25/26"))
 calendar.extra.append(ContentLine(name="X-WR-TIMEZONE", value="Europe/Madrid"))
 
-with open("bisbe_calendar.ics", "w", encoding="utf-8") as f:
+with open("site/bisbe_calendar.ics", "w", encoding="utf-8") as f:
     f.writelines(calendar)
 # with open("bisbe_calendar.ics", "w", encoding="utf-8", newline='') as f:
 #     f.write(calendar.serialize())
