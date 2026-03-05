@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     permissions:
@@ -24,12 +24,16 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Prepare files
+        run: |
+          mkdir _site
+          cp index.html _site/
+          cp *.ics _site/ || true
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: |
-            index.html
-            *.ics
+          path: _site
 
       - name: Deploy
         uses: actions/deploy-pages@v4
