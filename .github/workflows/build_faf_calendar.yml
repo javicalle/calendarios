@@ -24,6 +24,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add faf_calendar.ics
+          git add site/faf_calendar.ics
           git commit -m "Actualizar calendario FAF" || echo "Sin cambios"
           git push
