@@ -73,8 +73,8 @@ for resultado in resultados:
         evento.begin = fecha
         evento.end = fecha + timedelta(hours=DURACION_HORAS)
     
-        # Ubicación visible en calendario = nombre pabellón
-        evento.location = pabellon
+        # Ubicación visible en calendario = nombre pabellón, dirección
+        evento.location = f"{pabellon}, {direccion}"
     
         evento.url = enlace_detalle
     
