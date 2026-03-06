@@ -128,7 +128,7 @@ for partido in partidos:
     evento.end = fecha + timedelta(hours=DURACION_HORAS)
 
     if nombre_campo:
-        evento.location = nombre_campo
+        evento.location = f"{nombre_campo}, {direccion}"
 
     evento.url = enlace_detalle
 
@@ -137,7 +137,7 @@ for partido in partidos:
         f"Condición: {condicion}\n"
         f"Local: {local}\n"
         f"Visitante: {visitante}\n\n"
-        f"Estadi: {nombre_campo}\n"
+        f"Campo: {nombre_campo}\n"
         f"Dirección: {direccion}\n"
         f"Google Maps: {enlace_maps}\n\n"
         f"Detalle del partido:\n{enlace_detalle}"
