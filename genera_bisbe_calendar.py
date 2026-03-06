@@ -20,6 +20,7 @@ response.raise_for_status()
 
 soup = BeautifulSoup(response.text, "html.parser")
 calendar = Calendar()
+calendar.scale= "GREGORIAN"
 
 resultados = soup.find_all("table", class_="table-resultats")
 # partidos = soup.find_all("tr", class_="detallEnfrontament")
