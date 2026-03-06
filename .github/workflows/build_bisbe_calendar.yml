@@ -24,6 +24,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add bisbe_calendar.ics
+          git add site/bisbe_calendar.ics
           git commit -m "Actualizar calendario Bisbe" || echo "Sin cambios"
           git push
