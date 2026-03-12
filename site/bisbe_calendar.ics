@@ -14,6 +14,15 @@ UID:24924@bisbe-berenguer
 URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24924
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Jornada recuperació28-03-2026 liga escolar\n\nCondición: Visitante\nLocal: J23\nVisitante: AFA INSTITUT BISBE BERENGUER (FDC)\n\nPabellón: Jesuïtes Bellvitge - CE Joan XXIII\nDirección: Av. Mare de Deu Bellvitge\, 100-110\nMapa: https://www.google.com/maps/search/?api=1&query=Av.%20Mare%20de%20Deu%20Bellvitge%2C%20100-110\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24930
+DTEND:20260327T194500Z
+LOCATION:Jesuïtes Bellvitge - CE Joan XXIII\, Av. Mare de Deu Bellvitge\, 100-110
+DTSTART:20260327T184500Z
+SUMMARY:🚗 J23 vs AFA INSTITUT BISBE BERENGUER (FDC)
+UID:24930@bisbe-berenguer
+URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24930
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Jornada 9 liga escolar\n\nCondición: Local\nLocal: AFA INSTITUT BISBE BERENGUER (FDC)\nVisitante: J23\n\nPabellón: Institut Bisbe Berenguer\nDirección: C/ Aprestadora\, 49\nMapa: https://www.google.com/maps/search/?api=1&query=C/%20Aprestadora%2C%2049\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24940
 DTEND:20260424T170000Z
 LOCATION:Institut Bisbe Berenguer\, C/ Aprestadora\, 49
@@ -51,9 +60,9 @@ URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 4 liga escolar\n\nCondición: Visitante\nLocal: J23\nVisitante: AFA INSTITUT BISBE BERENGUER (FDC)\n\nPabellón: Jesuïtes Bellvitge - CE Joan XXIII\nDirección: Av. Mare de Deu Bellvitge\, 100-110\nMapa: https://www.google.com/maps/search/?api=1&query=Av.%20Mare%20de%20Deu%20Bellvitge%2C%20100-110\n\nDetalle del partido:\nhttps://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24930
-DTEND:20260306T194500Z
+DTEND:20260327T194500Z
 LOCATION:Jesuïtes Bellvitge - CE Joan XXIII\, Av. Mare de Deu Bellvitge\, 100-110
-DTSTART:20260306T184500Z
+DTSTART:20260327T184500Z
 SUMMARY:🚗 J23 vs AFA INSTITUT BISBE BERENGUER (FDC)
 UID:24930@bisbe-berenguer
 URL:https://consell-lh.playoffinformatica.com/CompeticioDetallEnfrontament.php?accio=accio_competicio_publica_detall_enfrontament&idEvent=24930
