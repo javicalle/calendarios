@@ -46,6 +46,9 @@ jobs:
       contents: read
 
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
       - name: Check if site changed
         id: changes
         run: |
