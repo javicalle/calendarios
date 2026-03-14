@@ -40,7 +40,13 @@ jobs:
           git add site/*.ics
           ( git commit -m 'Actualizar calendarios' && echo 'site_updated=true' >> $GITHUB_OUTPUT ) || echo "Sin cambios"
           git push
-  
+
+      - name: Subir artifact
+        uses: actions/upload-pages-artifact@v4
+        if: ${{ inputs.force || steps.site_changes.outputs.site_updated == 'true' }}
+        with:
+          path: site
+
   # Deployment job
   deploy:
     environment:
@@ -56,16 +62,16 @@ jobs:
       contents: read
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v5
+      # - name: Checkout repo
+      #   uses: actions/checkout@v5
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Subir artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: site
+      # - name: Subir artifact
+      #   uses: actions/upload-pages-artifact@v4
+      #   with:
+      #     path: site
 
       - name: Deploy to GitHub Pages
         id: deployment
