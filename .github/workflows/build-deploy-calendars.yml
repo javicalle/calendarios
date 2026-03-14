@@ -8,8 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # outputs:
-    #   is_updated: ${{ steps.check_site_changes.outputs.site_updated }}
+    outputs:
+      is_updated: ${{ steps.check_site_changes.outputs.site_updated }}
 
     steps:
       - name: Checkout repo
@@ -24,7 +24,7 @@ jobs:
       - name: Generar calendarios
         run: |
           python genera_bisbe_calendar.py
-          python genera_faf_calendar.py
+          # python genera_faf_calendar.py
 
       - name: Commit cambios
         id: site_changes
@@ -32,8 +32,8 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add site/*.ics
-          git commit -m "Actualizar calendarios" || echo "Sin cambios"
-          git push && echo "push ok"
+          (( git commit -m "Actualizar calendarios" && echo "site_updated=true" >> $GITHUB_OUTPUT )) || echo "Sin cambios"
+          git push
 
       # - name: Check site changes
       #   id: check_site_changes
