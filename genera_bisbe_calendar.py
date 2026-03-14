@@ -121,4 +121,4 @@ calendar.extra.append(ContentLine(name="X-WR-TIMEZONE", value="Europe/Madrid"))
 with open("site/bisbe_calendar.ics", "w", encoding="utf-8", newline='') as f:
     f.write(calendar.serialize())
 
-print("Calendario PRO generado correctamente.")
+print("Calendario Bisbe Berenguer generado correctamente.")
