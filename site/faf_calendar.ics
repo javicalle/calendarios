@@ -5,8 +5,9 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-DESCRIPTION:Jornada 2\n\nCondición: Visitante\nLocal: FUNDACIO ATLETIC SANT JUST  A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: \nDirección: \nGoogle Maps: \n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-atletic-sant-just-a/pi14/fundacio-academia-f-lhospitalet-a
+DESCRIPTION:Jornada 2\n\nCondición: Visitante\nLocal: FUNDACIO ATLETIC SANT JUST  A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. DE SANT JUST DESVERN\nDirección: c/ de Cervantes\, 7\, Sant Just Desvern\nGoogle Maps: http://maps.google.com/maps?z=12&t=m&q=loc:41.382711+2.067671\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/fundacio-atletic-sant-just-a/pi14/fundacio-academia-f-lhospitalet-a
 DTEND:20250927T123500Z
+LOCATION:CAMP DE FUTBOL MPAL. DE SANT JUST DESVERN\, c/ de Cervantes\, 7\, Sant Just Desvern
 DTSTART:20250927T110500Z
 SUMMARY:🚗 FUNDACIO ATLETIC SANT JUST  A vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  A
 UID:850300c725a9a1f445cb0805fd8f1740
@@ -67,8 +68,9 @@ UID:5527855e9eec3678877385594d400b49
 URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/sant-gabriel-cd-a/pi14/fundacio-academia-f-lhospitalet-a
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 7\n\nCondición: Visitante\nLocal: HORTA\, U.AT. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: \nDirección: \nGoogle Maps: \n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/horta-uat-a/pi14/fundacio-academia-f-lhospitalet-a
+DESCRIPTION:Jornada 7\n\nCondición: Visitante\nLocal: HORTA\, U.AT. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. HORTA\nDirección: c/ de Feliu i Codina\, 35-37\, Barcelona\nGoogle Maps: http://maps.google.com/maps?z=12&t=m&q=loc:41.434667+2.160872\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/horta-uat-a/pi14/fundacio-academia-f-lhospitalet-a
 DTEND:20251101T123000Z
+LOCATION:CAMP DE FUTBOL MPAL. HORTA\, c/ de Feliu i Codina\, 35-37\, Barcelona
 DTSTART:20251101T110000Z
 SUMMARY:🚗 HORTA\, U.AT. A vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  A
 UID:02b1251aca93d5081e7a7b51f8f8f492
@@ -210,8 +212,9 @@ UID:3a7b936ad0fae30b3cd32b0ab5605f59
 URL:https://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/lhospitalet-centre-esports-b/pi14/fundacio-academia-f-lhospitalet-a
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 9\n\nCondición: Visitante\nLocal: SANTBOIA\, F.C. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: \nDirección: \nGoogle Maps: \n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/santboia-fc-a/pi14/fundacio-academia-f-lhospitalet-a
+DESCRIPTION:Jornada 9\n\nCondición: Visitante\nLocal: SANTBOIA\, F.C. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. JOAN BAPTISTA MILÀ\nDirección: rda. Sant Ramon\, 159 \, Sant Boi De Llobregat\nGoogle Maps: http://maps.google.com/maps?z=12&t=m&q=loc:41.339484+2.034039\n\nDetalle del partido:\nhttps://www.fcf.cat/acta/2526/futbol-11/preferent-infantil-s14/grup-2/pi14/santboia-fc-a/pi14/fundacio-academia-f-lhospitalet-a
 DTEND:20251116T124500Z
+LOCATION:CAMP DE FUTBOL MPAL. JOAN BAPTISTA MILÀ\, rda. Sant Ramon\, 159 \, Sant Boi De Llobregat
 DTSTART:20251116T111500Z
 SUMMARY:🚗 SANTBOIA\, F.C. A vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  A
 UID:a570dcdc80a6068ba169c58d2d027614
