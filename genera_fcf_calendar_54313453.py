@@ -1,11 +1,10 @@
 import requests
-from bs4 import BeautifulSoup
 from ics import Calendar, Event
 from ics.grammar.parse import ContentLine
+import json
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import hashlib
-import urllib.parse
 
 # ==========================
 # CONFIGURACIÓN
@@ -23,6 +22,7 @@ DISCIPLINA = "19308233"
 COMPETICION = "58780226"
 GRUPO = "59348622"
 EQUIPO = "54313453"
+NOMBRE_EQUIPO = "FAF Cadete S15 A"
 
 # FAF = "FUNDACIÓ ACADEMIA F. L'HOSPITALET  A"
 FAF = "FUNDACIÓ ACADEMIA F."
@@ -33,42 +33,13 @@ PARTIDOS_URL = f"{BASE_URL}api/competition/partidos?grupId={GRUPO}"
 DURACION_HORAS = 1.5
 ZONA = ZoneInfo("Europe/Madrid")
 
-# función para recuperar los datos del estadio desde la página del acta
-def obtener_estadi(url):
-    try:
-        r = requests.get(url, timeout=10)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, "html.parser")
 
-        tablas = soup.find_all("table", class_="acta-table")
-
-        for tabla in tablas:
-            th = tabla.find("th")
-            if th and th.get_text(strip=True) == "Estadi":
-                filas = tabla.find("tbody").find_all("tr")
-
-                # 1️⃣ Nombre del campo
-                nombre_campo = filas[0].find("a").get_text(strip=True)
-
-                # 2️⃣ Enlace Google Maps
-                enlace_maps = filas[1].find("a").get("href")
-
-                # 3️⃣ Dirección
-                direccion = filas[2].find("td").get_text(strip=True)
-
-                return nombre_campo, direccion, enlace_maps
-
-        return "", "", ""
-
-    except Exception:
-        return "", "", ""
-
-
-response = requests.get(CALENDAR_URL)
+response = requests.get(PARTIDOS_URL)
 response.raise_for_status()
 
-# soup = BeautifulSoup(response.text, "html.parser")
 jornadas = json.loads(response.text)
+# print("jornadas" + json.dumps(jornadas, indent=2))
+
 calendar = Calendar()
 calendar.scale= "GREGORIAN"
 
@@ -102,34 +73,35 @@ calendar.scale= "GREGORIAN"
 
 cache_estadis = {}
 
-for jornada in jornadas.values():
-  for partido in jornada:
+for array_partidos in jornadas.values():
+  for partido in array_partidos:
 
-    jornada = partido("JORNADA")
-    fecha = partido("COMIENZO1")
-    # hora = partido("")
-    nombre_campo = partido("CAMPO")
-    codigo_campo = partido("CODIGO_CAMPO")
-    enlace_maps = f"https://google.com/maps/search/?api=1&query={partido("LATITUD")},{partido("LONGITUD")}"
+    jornada = partido["JORNADA"]
+    fecha = partido["COMIENZO1"]
+    # hora = partido["")
+    nombre_campo = partido["CAMPO"]
+    codigo_campo = partido["CODIGO_CAMPO"]
+    latitud = partido["LATITUD"]
+    longitud = partido["LONGITUD"]
     
-    local = partido("NOMBRE_CASA")
-    local_link = partido("")
-    visitante = partido("NOMBRE_FUERA")
-    visitante_link = partido("")
-    acta = partido("CODACTA")
-    resultado = partido("GOLES_CASA") + " - " + partido("GOLES_CASA")  # solo si el partido ha acabado (¿ESTADO?)
+    local = partido["NOMBRE_CASA"]
+    visitante = partido["NOMBRE_FUERA"]
+    acta = partido["CODACTA"]
+    resultado = partido["GOLES_CASA"] + " - " + partido["GOLES_CASA"]  # solo si el partido ha acabado (¿ESTADO?)
 
-    # print(f"--> {jornada} {fecha} {hora} {local} {visitante}")
+    # print(f"--> Jornada {jornada} {fecha} - {local} vs {visitante}")
 
     if FAF not in local and FAF not in visitante:
         continue
+
+    # print(f"--> Jornada {jornada} {fecha} - {local} vs {visitante}")
 
     # ---- Fecha con zona horaria ----
     fecha = datetime.strptime(fecha, "%Y-%m-%d %H:%M:%S")
     fecha = fecha.replace(tzinfo=ZONA)
 
     # ---- Determinar condición ----
-    if EQUIPO == partido("CODEQUIPO_CASA"):
+    if EQUIPO == partido["CODEQUIPO_CASA"]:
         icono = "🏠"
         condicion = "Local"
     else:
@@ -148,9 +120,9 @@ for jornada in jornadas.values():
     evento.begin = fecha
     evento.end = fecha + timedelta(hours=DURACION_HORAS)
 
-    # TODO: revisar como generar la location
     if nombre_campo:
         evento.location = f"{nombre_campo}"
+    evento.geo = (float(latitud), float(longitud))
 
     evento.url = enlace_detalle
 
@@ -159,8 +131,7 @@ for jornada in jornadas.values():
         f"Condición: {condicion}\n"
         f"Local: {local}\n"
         f"Visitante: {visitante}\n\n"
-        f"Campo: {nombre_campo}\n"
-        f"  -> f"{BASE_URL}camps/{codigo_campo}"\n"
+        f"Campo: {nombre_campo}, {BASE_URL}camps/{codigo_campo}\n"
         f"Detalle del partido:\n{enlace_detalle}"
     )
 
@@ -178,7 +149,7 @@ for jornada in jornadas.values():
 
     calendar.events.add(evento)
 
-calendar.extra.append(ContentLine(name="X-WR-CALNAME", value="FAF Infantil S14 A"))
+calendar.extra.append(ContentLine(name="X-WR-CALNAME", value=f"{NOMBRE_EQUIPO}"))
 calendar.extra.append(ContentLine(name="X-WR-TIMEZONE", value="Europe/Madrid"))
 
 # with open("faf_calendar.ics", "w", encoding="utf-8") as f:
@@ -186,4 +157,4 @@ calendar.extra.append(ContentLine(name="X-WR-TIMEZONE", value="Europe/Madrid"))
 with open("site/faf_calendar.ics", "w", encoding="utf-8", newline='') as f:
     f.write(calendar.serialize())
 
-print("Calendario FAF 26/27 generado correctamente.")
+print(f"Calendario {NOMBRE_EQUIPO} generado correctamente.")
