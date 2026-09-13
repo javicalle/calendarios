@@ -1,0 +1,29 @@
+name: Actualizar calendario FAF
+
+on:
+  schedule:
+    - cron: "0 3/6 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - run: pip install -r requirements.txt
+
+      - run: python genera_fcf_calendar_54313453.py
+
+      - name: Commit cambios
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add site/faf_calendar.ics
+          git commit -m "Actualizar calendario FAF" || echo "Sin cambios"
+          git push
