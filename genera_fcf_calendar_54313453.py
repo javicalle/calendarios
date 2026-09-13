@@ -104,6 +104,7 @@ for array_partidos in jornadas.values():
         icono = "🚗"
         condicion = "Visitante"
 
+    enlace_maps = f""
     # ---- Enlace detalle partido ----
     # enlace_detalle = f"{BASE_URL}acta/{TEMPORADA}/{DISCIPLINA}/{COMPETICION}/{GRUPO}/{local_link}/{visitante_link}"
     enlace_detalle = f"{BASE_URL}competicio/acta/{acta}"
@@ -128,6 +129,7 @@ for array_partidos in jornadas.values():
         f"Local: {local}\n"
         f"Visitante: {visitante}\n\n"
         f"Campo: {nombre_campo}, {BASE_URL}camps/{codigo_campo}\n"
+        f"Google Maps: {enlace_maps}\n\n"
         f"Detalle del partido:\n{enlace_detalle}"
     )
 
