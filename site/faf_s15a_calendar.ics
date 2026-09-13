@@ -5,7 +5,7 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-DESCRIPTION:Jornada 12\n\nCondición: Visitante\nLocal: BUFALA\, C.F. C\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL ZEM BUFALÀ\, https://www.fcf.cat/camps/238\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200839
+DESCRIPTION:Jornada 12\n\nCondición: Visitante\nLocal: BUFALA\, C.F. C\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL ZEM BUFALÀ\, https://www.fcf.cat/camps/238\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.459773\,2.237186\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200839
 DTEND:20261220T143000Z
 GEO:41.459773;2.237186
 LOCATION:CAMP DE FUTBOL ZEM BUFALÀ
@@ -15,7 +15,7 @@ UID:90a09a6d106d07e87d6868058d636623
 URL:https://www.fcf.cat/competicio/acta/4200839
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 14\n\nCondición: Visitante\nLocal: ALZAMORA\, C.F. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL CEM CAN DRAGO\, https://www.fcf.cat/camps/65\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200856
+DESCRIPTION:Jornada 14\n\nCondición: Visitante\nLocal: ALZAMORA\, C.F. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL CEM CAN DRAGO\, https://www.fcf.cat/camps/65\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.432594\,2.181415\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200856
 DTEND:20270116T163000Z
 GEO:41.432594;2.181415
 LOCATION:CAMP DE FUTBOL CEM CAN DRAGO
@@ -25,7 +25,7 @@ UID:8ca2d5f7ff3529b4fe1641153c94259d
 URL:https://www.fcf.cat/competicio/acta/4200856
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 29\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: ALZAMORA\, C.F. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200976
+DESCRIPTION:Jornada 29\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: ALZAMORA\, C.F. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200976
 DTEND:20270515T113000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
@@ -35,7 +35,7 @@ UID:577c475225bed5d707f753a4d4eee487
 URL:https://www.fcf.cat/competicio/acta/4200976
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 4\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: UNIFICACION BELLVITGE\, U.D. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200773
+DESCRIPTION:Jornada 4\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: UNIFICACION BELLVITGE\, U.D. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200773
 DTEND:20261017T113000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
@@ -45,7 +45,7 @@ UID:5498d823d92f485909ce94136f69c775
 URL:https://www.fcf.cat/competicio/acta/4200773
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 11\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: PARC\, U.D. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200830
+DESCRIPTION:Jornada 11\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: PARC\, U.D. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200830
 DTEND:20261212T123000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
@@ -55,7 +55,7 @@ UID:d8eafd6a63c13b15b7be030281f8e6ab
 URL:https://www.fcf.cat/competicio/acta/4200830
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 27\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: BUFALA\, C.F. C\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200959
+DESCRIPTION:Jornada 27\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: BUFALA\, C.F. C\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200959
 DTEND:20270501T113000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
@@ -65,7 +65,7 @@ UID:784324cf7a19b91066c139cbb1fe1bd0
 URL:https://www.fcf.cat/competicio/acta/4200959
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 20\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: UNIFICACION LLEFIA\,CF. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200900
+DESCRIPTION:Jornada 20\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: UNIFICACION LLEFIA\,CF. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200900
 DTEND:20270306T123000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
@@ -75,7 +75,7 @@ UID:a05030c5bd27dab28147115a83f69dd2
 URL:https://www.fcf.cat/competicio/acta/4200900
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 25\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: SANTS\, U.E. B\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200942
+DESCRIPTION:Jornada 25\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: SANTS\, U.E. B\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200942
 DTEND:20270417T113000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
@@ -85,7 +85,7 @@ UID:1babb456b6d86add75a823ddd5229f5e
 URL:https://www.fcf.cat/competicio/acta/4200942
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 3\n\nCondición: Visitante\nLocal: CANYELLES\,C.E. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. CANYELLES (BCN)\, https://www.fcf.cat/camps/287\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200765
+DESCRIPTION:Jornada 3\n\nCondición: Visitante\nLocal: CANYELLES\,C.E. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. CANYELLES (BCN)\, https://www.fcf.cat/camps/287\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.440962\,2.158429\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200765
 DTEND:20261010T140000Z
 GEO:41.440962;2.158429
 LOCATION:CAMP DE FUTBOL MPAL. CANYELLES (BCN)
@@ -95,7 +95,7 @@ UID:4fea2f30489664e110b85770df76e793
 URL:https://www.fcf.cat/competicio/acta/4200765
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 19\n\nCondición: Visitante\nLocal: UNIFICACION BELLVITGE\, U.D. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. LA FEIXA LLARGA\, https://www.fcf.cat/camps/365\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200893
+DESCRIPTION:Jornada 19\n\nCondición: Visitante\nLocal: UNIFICACION BELLVITGE\, U.D. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. LA FEIXA LLARGA\, https://www.fcf.cat/camps/365\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.348853\,2.102989\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200893
 DTEND:20270228T163000Z
 GEO:41.348853;2.102989
 LOCATION:CAMP DE FUTBOL MPAL. LA FEIXA LLARGA
@@ -105,7 +105,7 @@ UID:1092c6bdf159c5552fe8a7b497636481
 URL:https://www.fcf.cat/competicio/acta/4200893
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 22\n\nCondición: Visitante\nLocal: ESCOLA DE FUTBOL PREMIER BARCELONA C\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. VALL D´HEBRON\, https://www.fcf.cat/camps/688\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200916
+DESCRIPTION:Jornada 22\n\nCondición: Visitante\nLocal: ESCOLA DE FUTBOL PREMIER BARCELONA C\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. VALL D´HEBRON\, https://www.fcf.cat/camps/688\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.427481\,2.146954\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200916
 DTEND:20270321T123000Z
 GEO:41.427481;2.146954
 LOCATION:CAMP DE FUTBOL MPAL. VALL D´HEBRON
@@ -115,7 +115,7 @@ UID:24e660dcac7404d2d62684b9e268d3e8
 URL:https://www.fcf.cat/competicio/acta/4200916
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 24\n\nCondición: Visitante\nLocal: FUNDACIO P. CE. JUPITER A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL CEM JÚPITER\, https://www.fcf.cat/camps/403\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200933
+DESCRIPTION:Jornada 24\n\nCondición: Visitante\nLocal: FUNDACIO P. CE. JUPITER A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL CEM JÚPITER\, https://www.fcf.cat/camps/403\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.417463\,2.202227\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200933
 DTEND:20270410T173000Z
 GEO:41.417463;2.202227
 LOCATION:CAMP DE FUTBOL CEM JÚPITER
@@ -125,7 +125,7 @@ UID:56004f74436a16f3c58f9d3eab93c746
 URL:https://www.fcf.cat/competicio/acta/4200933
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 15\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: CATALONIA\, U.B. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200864
+DESCRIPTION:Jornada 15\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: CATALONIA\, U.B. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200864
 DTEND:20270123T123000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
@@ -135,7 +135,7 @@ UID:f9c5b9da6e022cdc94e20ed53053eff3
 URL:https://www.fcf.cat/competicio/acta/4200864
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 5\n\nCondición: Visitante\nLocal: UNIFICACION LLEFIA\,CF. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. LLEFIÀ\, https://www.fcf.cat/camps/476\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200780
+DESCRIPTION:Jornada 5\n\nCondición: Visitante\nLocal: UNIFICACION LLEFIA\,CF. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. LLEFIÀ\, https://www.fcf.cat/camps/476\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.437786\,2.215409\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200780
 DTEND:20261024T161000Z
 GEO:41.437786;2.215409
 LOCATION:CAMP DE FUTBOL MPAL. LLEFIÀ
@@ -145,7 +145,7 @@ UID:be2913c4ee8196310a453a1ba5cfe506
 URL:https://www.fcf.cat/competicio/acta/4200780
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 16\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: HORTA\, U.AT. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200870
+DESCRIPTION:Jornada 16\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: HORTA\, U.AT. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200870
 DTEND:20270130T123000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
@@ -155,7 +155,7 @@ UID:acd51c5efeb94ff2e251ab3e098a51c1
 URL:https://www.fcf.cat/competicio/acta/4200870
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 10\n\nCondición: Visitante\nLocal: SANTS\, U.E. B\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL CE DE L´ENERGIA\, https://www.fcf.cat/camps/1948\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200822
+DESCRIPTION:Jornada 10\n\nCondición: Visitante\nLocal: SANTS\, U.E. B\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL CE DE L´ENERGIA\, https://www.fcf.cat/camps/1948\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.359584\,2.134794\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200822
 DTEND:20261129T170000Z
 GEO:41.359584;2.134794
 LOCATION:CAMP DE FUTBOL CE DE L´ENERGIA
@@ -165,7 +165,7 @@ UID:399fb863c27711872604e45ce998e537
 URL:https://www.fcf.cat/competicio/acta/4200822
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 23\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: Pª BARC. ANGUERA B\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200925
+DESCRIPTION:Jornada 23\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: Pª BARC. ANGUERA B\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200925
 DTEND:20270403T113000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
@@ -175,7 +175,7 @@ UID:99316d8c16569d95647d7f5202a11fc3
 URL:https://www.fcf.cat/competicio/acta/4200925
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 7\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: ESCOLA DE FUTBOL PREMIER BARCELONA C\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200796
+DESCRIPTION:Jornada 7\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: ESCOLA DE FUTBOL PREMIER BARCELONA C\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200796
 DTEND:20261107T123000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
@@ -185,7 +185,7 @@ UID:908b7e12f72741bc080682c260a09282
 URL:https://www.fcf.cat/competicio/acta/4200796
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 6\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: ESCOLA ESPORTIVA GUINEUETA C.F A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200788
+DESCRIPTION:Jornada 6\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: ESCOLA ESPORTIVA GUINEUETA C.F A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200788
 DTEND:20261031T123000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
@@ -195,7 +195,7 @@ UID:dc7a66006d600e4dc76decb8a969ed4e
 URL:https://www.fcf.cat/competicio/acta/4200788
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 28\n\nCondición: Visitante\nLocal: SINGUERLIN\, C.F. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL CEM CAN ZAM (2)\, https://www.fcf.cat/camps/283\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200967
+DESCRIPTION:Jornada 28\n\nCondición: Visitante\nLocal: SINGUERLIN\, C.F. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL CEM CAN ZAM (2)\, https://www.fcf.cat/camps/283\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.454322\,2.200827\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200967
 DTEND:20270509T173000Z
 GEO:41.454322;2.200827
 LOCATION:CAMP DE FUTBOL CEM CAN ZAM (2)
@@ -205,7 +205,7 @@ UID:80803f6cd31a42ef47a4b472ae82de8c
 URL:https://www.fcf.cat/competicio/acta/4200967
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 2\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: FUNDACIÓ FUTBOL BADALONA C\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200758
+DESCRIPTION:Jornada 2\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: FUNDACIÓ FUTBOL BADALONA C\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200758
 DTEND:20261003T113000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
@@ -215,7 +215,7 @@ UID:9869f5c4ca6a8f667dffde67c116febe
 URL:https://www.fcf.cat/competicio/acta/4200758
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 9\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: FUNDACIO P. CE. JUPITER A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200813
+DESCRIPTION:Jornada 9\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: FUNDACIO P. CE. JUPITER A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200813
 DTEND:20261121T123000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
@@ -225,7 +225,7 @@ UID:7698046aeefd72359d068c0ec4253c8a
 URL:https://www.fcf.cat/competicio/acta/4200813
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 21\n\nCondición: Visitante\nLocal: ESCOLA ESPORTIVA GUINEUETA C.F A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL CEM LA GUINEUETA\, https://www.fcf.cat/camps/70\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200908
+DESCRIPTION:Jornada 21\n\nCondición: Visitante\nLocal: ESCOLA ESPORTIVA GUINEUETA C.F A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL CEM LA GUINEUETA\, https://www.fcf.cat/camps/70\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.44156\,2.171034\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200908
 DTEND:20270314T161500Z
 GEO:41.441560;2.171034
 LOCATION:CAMP DE FUTBOL CEM LA GUINEUETA
@@ -235,7 +235,7 @@ UID:b177cc15d2c35a8accbc83edfc267279
 URL:https://www.fcf.cat/competicio/acta/4200908
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 26\n\nCondición: Visitante\nLocal: PARC\, U.D. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL CEM FORT-PIENC\, https://www.fcf.cat/camps/68\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200950
+DESCRIPTION:Jornada 26\n\nCondición: Visitante\nLocal: PARC\, U.D. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL CEM FORT-PIENC\, https://www.fcf.cat/camps/68\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.395547\,2.184793\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200950
 DTEND:20270425T133000Z
 GEO:41.395547;2.184793
 LOCATION:CAMP DE FUTBOL CEM FORT-PIENC
@@ -245,7 +245,7 @@ UID:71c15d7748ac8861a784a2c447a6d204
 URL:https://www.fcf.cat/competicio/acta/4200950
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 30\n\nCondición: Visitante\nLocal: CATALONIA\, U.B. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL ESCOLA INDUSTRIAL\, https://www.fcf.cat/camps/88\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200984
+DESCRIPTION:Jornada 30\n\nCondición: Visitante\nLocal: CATALONIA\, U.B. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL ESCOLA INDUSTRIAL\, https://www.fcf.cat/camps/88\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.38742\,2.147157\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200984
 DTEND:20270522T193000Z
 GEO:41.387420;2.147157
 LOCATION:CAMP DE FUTBOL ESCOLA INDUSTRIAL
@@ -255,7 +255,7 @@ UID:a5956a2c3c2c8e114829b1f265930677
 URL:https://www.fcf.cat/competicio/acta/4200984
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 8\n\nCondición: Visitante\nLocal: Pª BARC. ANGUERA B\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL INEF BARCELONA\, https://www.fcf.cat/camps/1289\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200805
+DESCRIPTION:Jornada 8\n\nCondición: Visitante\nLocal: Pª BARC. ANGUERA B\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL INEF BARCELONA\, https://www.fcf.cat/camps/1289\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.363796\,2.147145\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200805
 DTEND:20261114T150000Z
 GEO:41.363796;2.147145
 LOCATION:CAMP DE FUTBOL INEF BARCELONA
@@ -265,7 +265,7 @@ UID:eca53f01d82e5973711a0b2003728218
 URL:https://www.fcf.cat/competicio/acta/4200805
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 17\n\nCondición: Visitante\nLocal: FUNDACIÓ FUTBOL BADALONA C\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. PERE GOL\, https://www.fcf.cat/camps/1034\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200878
+DESCRIPTION:Jornada 17\n\nCondición: Visitante\nLocal: FUNDACIÓ FUTBOL BADALONA C\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. PERE GOL\, https://www.fcf.cat/camps/1034\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.445065\,2.231889\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200878
 DTEND:20270214T163000Z
 GEO:41.445065;2.231889
 LOCATION:CAMP DE FUTBOL MPAL. PERE GOL
@@ -275,7 +275,7 @@ UID:2ac8224f971273821f35b67a479bc450
 URL:https://www.fcf.cat/competicio/acta/4200878
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 13\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: SINGUERLIN\, C.F. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200847
+DESCRIPTION:Jornada 13\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: SINGUERLIN\, C.F. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200847
 DTEND:20270109T123000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
@@ -285,7 +285,7 @@ UID:079ed6b366fe011336f9da7473e5c1fa
 URL:https://www.fcf.cat/competicio/acta/4200847
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 1\n\nCondición: Visitante\nLocal: HORTA\, U.AT. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. HORTA \, https://www.fcf.cat/camps/384\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200750
+DESCRIPTION:Jornada 1\n\nCondición: Visitante\nLocal: HORTA\, U.AT. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. HORTA \, https://www.fcf.cat/camps/384\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.434667\,2.160872\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200750
 DTEND:20260927T113000Z
 GEO:41.434667;2.160872
 LOCATION:CAMP DE FUTBOL MPAL. HORTA 
@@ -295,7 +295,7 @@ UID:653c87ff80e21c3c17518a5f11e8f143
 URL:https://www.fcf.cat/competicio/acta/4200750
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 18\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: CANYELLES\,C.E. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200885
+DESCRIPTION:Jornada 18\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: CANYELLES\,C.E. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200885
 DTEND:20270220T123000Z
 GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
