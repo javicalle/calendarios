@@ -27,7 +27,6 @@ NOMBRE_EQUIPO = "FAF Cadete S15 A"
 # FAF = "FUNDACIÓ ACADEMIA F. L'HOSPITALET  A"
 FAF = "FUNDACIÓ ACADEMIA F."
 
-# CALENDAR_URL = f"{BASE_URL}calendari-equip/{TEMPORADA}/{DISCIPLINA}/{COMPETICION}/{GRUPO}/{EQUIPO}"
 PARTIDOS_URL = f"{BASE_URL}api/competition/partidos?grupId={GRUPO}"
 
 DURACION_HORAS = 1.5
@@ -42,9 +41,6 @@ jornadas = json.loads(response.text)
 
 calendar = Calendar()
 calendar.scale= "GREGORIAN"
-
-# partidos = soup.find("table", class_="fcftable").find('tbody').find_all('tr')
-# print("partidos" + str(partidos))
 
 # partido:
 # {
@@ -152,9 +148,7 @@ for array_partidos in jornadas.values():
 calendar.extra.append(ContentLine(name="X-WR-CALNAME", value=f"{NOMBRE_EQUIPO}"))
 calendar.extra.append(ContentLine(name="X-WR-TIMEZONE", value="Europe/Madrid"))
 
-# with open("faf_calendar.ics", "w", encoding="utf-8") as f:
-#     f.writelines(calendar)
-with open("site/faf_calendar.ics", "w", encoding="utf-8", newline='') as f:
+with open("site/faf_s15a_calendar.ics", "w", encoding="utf-8", newline='') as f:
     f.write(calendar.serialize())
 
 print(f"Calendario {NOMBRE_EQUIPO} generado correctamente.")
