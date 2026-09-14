@@ -83,7 +83,7 @@ for array_partidos in jornadas.values():
     local = partido["NOMBRE_CASA"]
     visitante = partido["NOMBRE_FUERA"]
     acta = partido["CODACTA"]
-    resultado = partido["GOLES_CASA"] + " - " + partido["GOLES_CASA"]  # solo si el partido ha acabado (¿ESTADO?)
+    # resultado = partido["GOLES_CASA"] + " - " + partido["GOLES_CASA"]  # solo si el partido ha acabado (¿ESTADO?)
 
     # print(f"--> Jornada {jornada} {fecha} - {local} vs {visitante}")
 
