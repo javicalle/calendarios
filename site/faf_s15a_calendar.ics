@@ -25,16 +25,6 @@ UID:8ca2d5f7ff3529b4fe1641153c94259d
 URL:https://www.fcf.cat/competicio/acta/4200856
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 6\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: ATENEU IGUALADI\, S.E.F. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4285720
-DTEND:20261031T123000Z
-GEO:41.361715;2.121040
-LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
-DTSTART:20261031T110000Z
-SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  A vs ATENEU IGUALADI\, S.E.F. A
-UID:704797a0e4f31baeddf7e19d420880c3
-URL:https://www.fcf.cat/competicio/acta/4285720
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Jornada 29\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: ALZAMORA\, C.F. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200976
 DTEND:20270515T113000Z
 GEO:41.361715;2.121040
@@ -115,6 +105,16 @@ UID:1092c6bdf159c5552fe8a7b497636481
 URL:https://www.fcf.cat/competicio/acta/4200893
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Jornada 6\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: PUJADAS\, C.D. A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4286143
+DTEND:20261031T123000Z
+GEO:41.361715;2.121040
+LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
+DTSTART:20261031T110000Z
+SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  A vs PUJADAS\, C.D. A
+UID:a66e54da4c5a8c25b00da176f7d91b1e
+URL:https://www.fcf.cat/competicio/acta/4286143
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Jornada 22\n\nCondición: Visitante\nLocal: ESCOLA DE FUTBOL PREMIER BARCELONA C\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. VALL D´HEBRON\, https://www.fcf.cat/camps/688\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.427481\,2.146954\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200916
 DTEND:20270321T123000Z
 GEO:41.427481;2.146954
@@ -143,15 +143,6 @@ DTSTART:20270123T110000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  A vs CATALONIA\, U.B. A
 UID:f9c5b9da6e022cdc94e20ed53053eff3
 URL:https://www.fcf.cat/competicio/acta/4200864
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Jornada 21\n\nCondición: Visitante\nLocal: ATENEU IGUALADI\, S.E.F. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: \, https://www.fcf.cat/camps/96\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.594879\,1.620038\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4285713
-DTEND:20270314T183000Z
-GEO:41.594879;1.620038
-DTSTART:20270314T170000Z
-SUMMARY:🚗 ATENEU IGUALADI\, S.E.F. A vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  A
-UID:9a837095cc11e97b6fd538e2cc9fd12f
-URL:https://www.fcf.cat/competicio/acta/4285713
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 5\n\nCondición: Visitante\nLocal: UNIFICACION LLEFIA\,CF. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: CAMP DE FUTBOL MPAL. LLEFIÀ\, https://www.fcf.cat/camps/476\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.437786\,2.215409\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200780
@@ -222,6 +213,15 @@ DTSTART:20261003T100000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  A vs FUNDACIÓ FUTBOL BADALONA C
 UID:9869f5c4ca6a8f667dffde67c116febe
 URL:https://www.fcf.cat/competicio/acta/4200758
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Jornada 21\n\nCondición: Visitante\nLocal: PUJADAS\, C.D. A\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\n\nCampo: \, https://www.fcf.cat/camps/71\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.412329\,2.213481\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4286136
+DTEND:20270314T183000Z
+GEO:41.412329;2.213481
+DTSTART:20270314T170000Z
+SUMMARY:🚗 PUJADAS\, C.D. A vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  A
+UID:4cb54d98ccdc93e509b9d4f3a570fbe5
+URL:https://www.fcf.cat/competicio/acta/4286136
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 9\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  A\nVisitante: FUNDACIO P. CE. JUPITER A\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200813
