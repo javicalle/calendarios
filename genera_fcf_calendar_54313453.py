@@ -13,6 +13,7 @@ import hashlib
 # calendario: https://www.fcf.cat/ca/competicio?temporadaId=22&disciplinaId=19308233&competicioId=58780226&grupId=59348622&tab=calendari
 # detalle: https://www.fcf.cat/ca/competicio/acta/4200750
 # equipo: https://www.fcf.cat/ca/clubs/40492704/categories/54313453
+# equipo: https://www.fcf.cat/api/clubs/40492704/team/54313453
 # partidos: https://www.fcf.cat/api/competition/partidos?grupId=59348622
 
 
@@ -28,6 +29,7 @@ NOMBRE_EQUIPO = "FAF Cadete S15 A"
 FAF = "FUNDACIÓ ACADEMIA F."
 
 PARTIDOS_URL = f"{BASE_URL}api/competition/partidos?grupId={GRUPO}"
+# TODO: usar api equipo https://www.fcf.cat/api/clubs/40492704/team/54313453 filtrando partidos del GRUPO
 
 DURACION_HORAS = 1.5
 ZONA = ZoneInfo("Europe/Madrid")
