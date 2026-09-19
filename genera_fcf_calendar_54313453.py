@@ -53,13 +53,13 @@ equipo = json.loads(response.text)
 # print("equipo: " + json.dumps(equipo, indent=2))
 
 data = equipo["data"]
-# if not data:
-  # print(f"NO se ha podido recuperar los datos del equipo {EQUIPO}.")
+if not data:
+  print(f"::warning ::NO se ha podido recuperar los datos del equipo {EQUIPO}.")
   # return
 
 partidos = data["matches"]
-# if not partidos:
-  # print(f"NO se ha podido recuperar los partidos del equipo {EQUIPO}.")
+if not partidos:
+  print(f"::warning ::NO se ha podido recuperar los partidos del equipo {EQUIPO}.")
   # return
 
 # filter current season matches
@@ -180,4 +180,4 @@ calendar.extra.append(ContentLine(name="X-WR-TIMEZONE", value="Europe/Madrid"))
 with open("site/faf_s15a_calendar.ics", "w", encoding="utf-8", newline='') as f:
     f.write(calendar.serialize())
 
-print(f"Calendario {NOMBRE_EQUIPO} generado correctamente.")
+print(f"::notice ::Calendario {NOMBRE_EQUIPO} generado correctamente.")
