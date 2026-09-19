@@ -22,24 +22,49 @@ TEMPORADA = "22"
 DISCIPLINA = "19308233"
 COMPETICION = "58780226"
 GRUPO = "59348622"
-EQUIPO = "54313453"
+CLUB = "40492704"  # FAF
+EQUIPO = "54313453"  # Cadete S15 A
 NOMBRE_EQUIPO = "FAF Cadete S15 A"
 
 # FAF = "FUNDACIÓ ACADEMIA F. L'HOSPITALET  A"
 FAF = "FUNDACIÓ ACADEMIA F."
 
-PARTIDOS_URL = f"{BASE_URL}api/competition/partidos?grupId={GRUPO}"
-# TODO: usar api equipo https://www.fcf.cat/api/clubs/40492704/team/54313453 filtrando partidos del GRUPO
-
-DURACION_HORAS = 1.5
+DURACION_HORAS = 2
 ZONA = ZoneInfo("Europe/Madrid")
 
 
-response = requests.get(PARTIDOS_URL)
+# PARTIDOS_URL = f"{BASE_URL}api/competition/partidos?grupId={GRUPO}"
+# # TODO: usar api equipo https://www.fcf.cat/api/clubs/40492704/team/54313453 filtrando partidos del GRUPO
+
+# response = requests.get(PARTIDOS_URL)
+# response.raise_for_status()
+
+# jornadas = json.loads(response.text)
+# # print("jornadas" + json.dumps(jornadas, indent=2))
+
+
+# PARTIDOS_URL = f"{BASE_URL}api/competition/partidos?grupId={GRUPO}"
+EQUIPO_URL = f"{BASE_URL}api/clubs/{CLUB}/team/{EQUIPO}"
+
+response = requests.get(EQUIPO_URL)
 response.raise_for_status()
 
-jornadas = json.loads(response.text)
-# print("jornadas" + json.dumps(jornadas, indent=2))
+equipo = json.loads(response.text)
+# print("equipo: " + json.dumps(equipo, indent=2))
+
+data = equipo["data1"]
+# if not data:
+  # print(f"NO se ha podido recuperar los datos del equipo {EQUIPO}.")
+  # return
+
+partidos = data["matches"]
+# if not partidos:
+  # print(f"NO se ha podido recuperar los partidos del equipo {EQUIPO}.")
+  # return
+
+# filter current season matches
+array_partidos = [p for p in partidos if p["CODGRUPO"] == GRUPO]
+# print("array_partidos: " + json.dumps(array_partidos, indent=2))
 
 calendar = Calendar()
 calendar.scale= "GREGORIAN"
@@ -69,11 +94,8 @@ calendar.scale= "GREGORIAN"
 #   "CODCLUB_FUERA": "40492704"
 # },
 
-cache_estadis = {}
-
-for array_partidos in jornadas.values():
-  for partido in array_partidos:
-
+# for array_partidos in jornadas.values():
+for partido in array_partidos:
     jornada = partido["JORNADA"]
     fecha = partido["COMIENZO1"]
     # hora = partido["")
@@ -83,7 +105,9 @@ for array_partidos in jornadas.values():
     longitud = partido["LONGITUD"]
     
     local = partido["NOMBRE_CASA"]
+    cod_local = partido["CODEQUIPO_CASA"]
     visitante = partido["NOMBRE_FUERA"]
+    cod_visit = partido["CODEQUIPO_FUERA"]
     acta = partido["CODACTA"]
     # resultado = partido["GOLES_CASA"] + " - " + partido["GOLES_CASA"]  # solo si el partido ha acabado (¿ESTADO?)
 
@@ -106,7 +130,7 @@ for array_partidos in jornadas.values():
         icono = "🚗"
         condicion = "Visitante"
 
-    enlace_maps = f"https://google.com/maps/search/?api=1&query={latitud},{longitud}"
+    enlace_maps = f"https://www.google.com/maps/search/?api=1&query={latitud},{longitud}"
 
     # ---- Enlace detalle partido ----
     # enlace_detalle = f"{BASE_URL}acta/{TEMPORADA}/{DISCIPLINA}/{COMPETICION}/{GRUPO}/{local_link}/{visitante_link}"
@@ -136,7 +160,7 @@ for array_partidos in jornadas.values():
         f"Detalle del partido:\n{enlace_detalle}"
     )
 
-    uid_source = f"{TEMPORADA}-{jornada}-{local}-{visitante}"
+    uid_source = f"{TEMPORADA}-{jornada}-{cod_local}-{cod_visit}"
     evento.uid = hashlib.md5(uid_source.encode()).hexdigest()
 
     # # ---- Recordatorio automático (2 horas antes) ----
