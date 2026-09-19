@@ -22,9 +22,11 @@ jobs:
 
       - uses: actions/setup-python@v7
         with:
-          python-version: '3.13' 
+          python-version: '3.13'
           cache: 'pip'
-          pip-install: -r requirements.txt   
+
+      - name: Install requirements
+        run: pip install -r requirements.txt
 
       - name: Generar calendarios
         run: python genera_fcf_calendar_54313453.py
