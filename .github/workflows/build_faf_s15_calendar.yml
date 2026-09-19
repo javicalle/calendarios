@@ -37,7 +37,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add site/faf_s15a_calendar.ics
-          ( git commit -m 'Actualizar calendario FAF' && echo 'site_updated=true' >> $GITHUB_OUTPUT ) || echo "Sin cambios"
+          ( git commit -m 'Actualizar calendario FAF' && echo 'site_updated=true' >> $GITHUB_OUTPUT ) || echo "::notice ::Sin cambios"
           git push
 
       - name: Subir artifact
