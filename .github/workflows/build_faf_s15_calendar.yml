@@ -4,30 +4,64 @@ on:
   schedule:
     - cron: "0 3/6 * * *"
   workflow_dispatch:
+    inputs:
+      force:
+        description: 'Publicar incluso sin cambios'
+        required: false
+        type: boolean
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      is_updated: ${{ steps.site_changes.outputs.site_updated }}
 
     steps:
-      - uses: actions/checkout@v7
+      - name: Checkout repo
+        uses: actions/checkout@v7
+
       - uses: actions/setup-python@v7
         with:
           python-version: '3.13' 
-      
-      # - uses: actions/checkout@v3
-      # - uses: actions/setup-python@v4
-      #   with:
-      #     python-version: '3.10'
+          cache: 'pip'
+          pip-install: -r requirements.txt   
 
-      - run: pip install -r requirements.txt
-
-      - run: python genera_fcf_calendar_54313453.py
+      - name: Generar calendarios
+        run: python genera_fcf_calendar_54313453.py
 
       - name: Commit cambios
+        id: site_changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add site/faf_s15a_calendar.ics
-          git commit -m "Actualizar calendario FAF" || echo "Sin cambios"
+          ( git commit -m 'Actualizar calendario FAF' && echo 'site_updated=true' >> $GITHUB_OUTPUT ) || echo "Sin cambios"
           git push
+
+      - name: Subir artifact
+        uses: actions/upload-pages-artifact@v5
+        if: ${{ inputs.force || steps.site_changes.outputs.site_updated == 'true' }}
+        with:
+          path: site
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    if: ${{ inputs.force || needs.build.outputs.is_updated == 'true' }}
+
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
+
+    steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
