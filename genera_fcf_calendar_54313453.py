@@ -52,7 +52,7 @@ response.raise_for_status()
 equipo = json.loads(response.text)
 # print("equipo: " + json.dumps(equipo, indent=2))
 
-data = equipo["data1"]
+data = equipo["data"]
 # if not data:
   # print(f"NO se ha podido recuperar los datos del equipo {EQUIPO}.")
   # return
