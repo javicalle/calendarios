@@ -7,7 +7,6 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 DESCRIPTION:Jornada 6\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: PUJADAS\, C.D. "A"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4286143
 DTEND:20261031T130000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20261031T110000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs PUJADAS\, C.D. "A"
@@ -17,7 +16,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 5\n\nCondición: Visitante\nLocal: UNIFICACION LLEFIA\,CF. "A"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL MPAL. LLEFIÀ\, https://www.fcf.cat/camps/476\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.437786\,2.215409\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200780
 DTEND:20261024T164000Z
-GEO:41.437786;2.215409
 LOCATION:CAMP DE FUTBOL MPAL. LLEFIÀ
 DTSTART:20261024T144000Z
 SUMMARY:🚗 UNIFICACION LLEFIA\,CF. "A" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
@@ -27,7 +25,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 14\n\nCondición: Visitante\nLocal: ALZAMORA\, C.F. "A"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL CEM CAN DRAGO\, https://www.fcf.cat/camps/65\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.432594\,2.181415\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200856
 DTEND:20270116T170000Z
-GEO:41.432594;2.181415
 LOCATION:CAMP DE FUTBOL CEM CAN DRAGO
 DTSTART:20270116T150000Z
 SUMMARY:🚗 ALZAMORA\, C.F. "A" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
@@ -37,7 +34,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 25\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: SANTS\, U.E. "B"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200942
 DTEND:20270417T120000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20270417T100000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs SANTS\, U.E. "B"
@@ -47,7 +43,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 28\n\nCondición: Visitante\nLocal: SINGUERLIN\, C.F. "A"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL CEM CAN ZAM (2)\, https://www.fcf.cat/camps/283\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.454322\,2.200827\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200967
 DTEND:20270509T180000Z
-GEO:41.454322;2.200827
 LOCATION:CAMP DE FUTBOL CEM CAN ZAM (2)
 DTSTART:20270509T160000Z
 SUMMARY:🚗 SINGUERLIN\, C.F. "A" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
@@ -57,7 +52,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 29\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: ALZAMORA\, C.F. "A"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200976
 DTEND:20270515T120000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20270515T100000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs ALZAMORA\, C.F. "A"
@@ -67,7 +61,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 22\n\nCondición: Visitante\nLocal: ESCOLA DE FUTBOL PREMIER BARCELONA "C"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL MPAL. VALL D´HEBRON\, https://www.fcf.cat/camps/688\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.427481\,2.146954\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200916
 DTEND:20270321T130000Z
-GEO:41.427481;2.146954
 LOCATION:CAMP DE FUTBOL MPAL. VALL D´HEBRON
 DTSTART:20270321T110000Z
 SUMMARY:🚗 ESCOLA DE FUTBOL PREMIER BARCELONA "C" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
@@ -77,7 +70,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 16\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: HORTA\, U.AT. "A"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200870
 DTEND:20270130T130000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20270130T110000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs HORTA\, U.AT. "A"
@@ -87,7 +79,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 17\n\nCondición: Visitante\nLocal: FUNDACIÓ FUTBOL BADALONA "C"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL MPAL. PERE GOL\, https://www.fcf.cat/camps/1034\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.445065\,2.231889\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200878
 DTEND:20270214T170000Z
-GEO:41.445065;2.231889
 LOCATION:CAMP DE FUTBOL MPAL. PERE GOL
 DTSTART:20270214T150000Z
 SUMMARY:🚗 FUNDACIÓ FUTBOL BADALONA "C" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
@@ -97,7 +88,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 4\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: UNIFICACION BELLVITGE\, U.D. "A"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200773
 DTEND:20261017T120000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20261017T100000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs UNIFICACION BELLVITGE\, U.D. "A"
@@ -107,7 +97,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 9\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: FUNDACIO P. CE. JUPITER "A"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200813
 DTEND:20261121T130000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20261121T110000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs FUNDACIO P. CE. JUPITER "A"
@@ -117,7 +106,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 13\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: SINGUERLIN\, C.F. "A"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200847
 DTEND:20270109T130000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20270109T110000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs SINGUERLIN\, C.F. "A"
@@ -127,7 +115,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 26\n\nCondición: Visitante\nLocal: PARC\, U.D. "A"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL CEM FORT-PIENC\, https://www.fcf.cat/camps/68\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.395547\,2.184793\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200950
 DTEND:20270425T140000Z
-GEO:41.395547;2.184793
 LOCATION:CAMP DE FUTBOL CEM FORT-PIENC
 DTSTART:20270425T120000Z
 SUMMARY:🚗 PARC\, U.D. "A" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
@@ -137,7 +124,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 10\n\nCondición: Visitante\nLocal: SANTS\, U.E. "B"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL CE DE L´ENERGIA\, https://www.fcf.cat/camps/1948\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.359584\,2.134794\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200822
 DTEND:20261129T173000Z
-GEO:41.359584;2.134794
 LOCATION:CAMP DE FUTBOL CE DE L´ENERGIA
 DTSTART:20261129T153000Z
 SUMMARY:🚗 SANTS\, U.E. "B" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
@@ -147,7 +133,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 3\n\nCondición: Visitante\nLocal: CANYELLES\,C.E. "A"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL MPAL. CANYELLES (BCN)\, https://www.fcf.cat/camps/287\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.440962\,2.158429\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200765
 DTEND:20261010T143000Z
-GEO:41.440962;2.158429
 LOCATION:CAMP DE FUTBOL MPAL. CANYELLES (BCN)
 DTSTART:20261010T123000Z
 SUMMARY:🚗 CANYELLES\,C.E. "A" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
@@ -157,7 +142,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 23\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: Pª BARC. ANGUERA "B"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200925
 DTEND:20270403T120000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20270403T100000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs Pª BARC. ANGUERA "B"
@@ -167,7 +151,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 1\n\nCondición: Visitante\nLocal: HORTA\, U.AT. "A"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL MPAL. HORTA \, https://www.fcf.cat/camps/384\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.434667\,2.160872\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200750
 DTEND:20260927T120000Z
-GEO:41.434667;2.160872
 LOCATION:CAMP DE FUTBOL MPAL. HORTA 
 DTSTART:20260927T100000Z
 SUMMARY:🚗 HORTA\, U.AT. "A" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
@@ -177,7 +160,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 19\n\nCondición: Visitante\nLocal: UNIFICACION BELLVITGE\, U.D. "A"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL MPAL. LA FEIXA LLARGA\, https://www.fcf.cat/camps/365\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.348853\,2.102989\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200893
 DTEND:20270228T170000Z
-GEO:41.348853;2.102989
 LOCATION:CAMP DE FUTBOL MPAL. LA FEIXA LLARGA
 DTSTART:20270228T150000Z
 SUMMARY:🚗 UNIFICACION BELLVITGE\, U.D. "A" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
@@ -187,7 +169,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 27\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: BUFALA\, C.F. "C"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200959
 DTEND:20270501T120000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20270501T100000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs BUFALA\, C.F. "C"
@@ -197,7 +178,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 7\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: ESCOLA DE FUTBOL PREMIER BARCELONA "C"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200796
 DTEND:20261107T130000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20261107T110000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs ESCOLA DE FUTBOL PREMIER BARCELONA "C"
@@ -207,7 +187,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 20\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: UNIFICACION LLEFIA\,CF. "A"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200900
 DTEND:20270306T130000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20270306T110000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs UNIFICACION LLEFIA\,CF. "A"
@@ -217,7 +196,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 2\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: FUNDACIÓ FUTBOL BADALONA "C"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200758
 DTEND:20261003T120000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20261003T100000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs FUNDACIÓ FUTBOL BADALONA "C"
@@ -227,7 +205,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 12\n\nCondición: Visitante\nLocal: BUFALA\, C.F. "C"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL ZEM BUFALÀ\, https://www.fcf.cat/camps/238\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.459773\,2.237186\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200839
 DTEND:20261220T150000Z
-GEO:41.459773;2.237186
 LOCATION:CAMP DE FUTBOL ZEM BUFALÀ
 DTSTART:20261220T130000Z
 SUMMARY:🚗 BUFALA\, C.F. "C" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
@@ -237,7 +214,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 18\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: CANYELLES\,C.E. "A"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200885
 DTEND:20270220T130000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20270220T110000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs CANYELLES\,C.E. "A"
@@ -247,7 +223,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 15\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: CATALONIA\, U.B. "A"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200864
 DTEND:20270123T130000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20270123T110000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs CATALONIA\, U.B. "A"
@@ -257,7 +232,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 8\n\nCondición: Visitante\nLocal: Pª BARC. ANGUERA "B"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL INEF BARCELONA\, https://www.fcf.cat/camps/1289\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.363796\,2.147145\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200805
 DTEND:20261114T153000Z
-GEO:41.363796;2.147145
 LOCATION:CAMP DE FUTBOL INEF BARCELONA
 DTSTART:20261114T133000Z
 SUMMARY:🚗 Pª BARC. ANGUERA "B" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
@@ -267,7 +241,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 11\n\nCondición: Local\nLocal: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\nVisitante: PARC\, U.D. "A"\n\nCampo: CAMP DE FUTBOL MPAL. SANTA EULÀLIA\, https://www.fcf.cat/camps/662\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.361715\,2.12104\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200830
 DTEND:20261212T130000Z
-GEO:41.361715;2.121040
 LOCATION:CAMP DE FUTBOL MPAL. SANTA EULÀLIA
 DTSTART:20261212T110000Z
 SUMMARY:🏠 FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A" vs PARC\, U.D. "A"
@@ -277,7 +250,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 30\n\nCondición: Visitante\nLocal: CATALONIA\, U.B. "A"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL ESCOLA INDUSTRIAL\, https://www.fcf.cat/camps/88\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.38742\,2.147157\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200984
 DTEND:20270522T200000Z
-GEO:41.387420;2.147157
 LOCATION:CAMP DE FUTBOL ESCOLA INDUSTRIAL
 DTSTART:20270522T180000Z
 SUMMARY:🚗 CATALONIA\, U.B. "A" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
@@ -287,7 +259,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 24\n\nCondición: Visitante\nLocal: FUNDACIO P. CE. JUPITER "A"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL CEM JÚPITER\, https://www.fcf.cat/camps/403\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.417463\,2.202227\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200933
 DTEND:20270410T180000Z
-GEO:41.417463;2.202227
 LOCATION:CAMP DE FUTBOL CEM JÚPITER
 DTSTART:20270410T160000Z
 SUMMARY:🚗 FUNDACIO P. CE. JUPITER "A" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
@@ -297,7 +268,6 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jornada 21\n\nCondición: Visitante\nLocal: PUJADAS\, C.D. "A"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: \, https://www.fcf.cat/camps/71\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.412329\,2.213481\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4286136
 DTEND:20270314T190000Z
-GEO:41.412329;2.213481
 DTSTART:20270314T170000Z
 SUMMARY:🚗 PUJADAS\, C.D. "A" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
 UID:04be9088097c65751834ab7cd2dbc9cd
