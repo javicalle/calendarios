@@ -146,7 +146,7 @@ for partido in array_partidos:
 
     if nombre_campo:
         evento.location = f"{nombre_campo}"
-    evento.geo = (float(latitud), float(longitud))
+    # evento.geo = (float(latitud), float(longitud))  # problem in mobile Google Calendar
 
     evento.url = enlace_detalle
 
