@@ -149,9 +149,9 @@ UID:2f677516d27c1aa0ab837a7aa6e9f422
 URL:https://www.fcf.cat/competicio/acta/4200925
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 1\n\nCondición: Visitante\nLocal: HORTA\, U.AT. "A"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL MPAL. HORTA \, https://www.fcf.cat/camps/384\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.434667\,2.160872\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200750
+DESCRIPTION:Jornada 1\n\nCondición: Visitante\nLocal: HORTA\, U.AT. "A"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL MPAL. HORTA\, https://www.fcf.cat/camps/384\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.434667\,2.160872\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4200750
 DTEND:20260927T120000Z
-LOCATION:CAMP DE FUTBOL MPAL. HORTA 
+LOCATION:CAMP DE FUTBOL MPAL. HORTA
 DTSTART:20260927T100000Z
 SUMMARY:🚗 HORTA\, U.AT. "A" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
 UID:2f81a297201a6aa77438c1b0ed42f0af
@@ -266,8 +266,9 @@ UID:f853c1ae8100bde95cecd474542e4379
 URL:https://www.fcf.cat/competicio/acta/4200933
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jornada 21\n\nCondición: Visitante\nLocal: PUJADAS\, C.D. "A"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: \, https://www.fcf.cat/camps/71\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.412329\,2.213481\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4286136
+DESCRIPTION:Jornada 21\n\nCondición: Visitante\nLocal: PUJADAS\, C.D. "A"\nVisitante: FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"\n\nCampo: CAMP DE FUTBOL CEM MARESME\, https://www.fcf.cat/camps/71\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=41.412329\,2.213481\n\nDetalle del partido:\nhttps://www.fcf.cat/competicio/acta/4286136
 DTEND:20270314T190000Z
+LOCATION:CAMP DE FUTBOL CEM MARESME
 DTSTART:20270314T170000Z
 SUMMARY:🚗 PUJADAS\, C.D. "A" vs FUNDACIÓ ACADEMIA F. L'HOSPITALET  "A"
 UID:04be9088097c65751834ab7cd2dbc9cd
