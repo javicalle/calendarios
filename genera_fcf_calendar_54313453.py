@@ -81,8 +81,8 @@ calendar.scale= "GREGORIAN"
 #   "NOMBRE_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  A",
 #   "ESCUDO_FUERA": "00100_0001226166_FAF.png",
 #   "CAMPO": "CAMP DE FUTBOL MPAL. HORTA ",
-#   "GOLES_CASA": "0",
-#   "GOLES_FUERA": "0",
+#   "GOLES_CASA": null,
+#   "GOLES_FUERA": null,
 #   "COMIENZO1": "2026-09-27 12:00:00",
 #   "CERRADA": "0",
 #   "ESTADO": "0",
@@ -93,6 +93,8 @@ calendar.scale= "GREGORIAN"
 #   "CODCLUB_CASA": "1049",
 #   "CODCLUB_FUERA": "40492704"
 # },
+
+ESTADOS_PARTIDO = {0: "no jugado", 1: "jugado", 3: "suspendido"}
 
 # for array_partidos in jornadas.values():
 for partido in array_partidos:
@@ -151,16 +153,16 @@ for partido in array_partidos:
     evento.url = enlace_detalle
 
     evento.description = (
-        f"Jornada {jornada}\n\n"
-        f"Condición: {condicion}\n"
-        f"Local: {local}\n"
-        f"Visitante: {visitante}\n\n"
-        f"Campo: {nombre_campo}, {BASE_URL}camps/{codigo_campo}\n"
-        f"Google Maps: {enlace_maps}\n\n"
-        f"Detalle del partido:\n{enlace_detalle}"
+        f"Jornada {jornada}"
+        f"\n\nCondición: {condicion}"
+        f"\nLocal: {local}"
+        f"\nVisitante: {visitante}"
+        f"\n\nGoogle Maps: {enlace_maps}"
+        f"\nCampo: {nombre_campo}, {BASE_URL}camps/{codigo_campo}"
+        f"\n\nDetalle del partido:\n{enlace_detalle}"
     )
 
-    uid_source = f"{TEMPORADA}-{jornada}-{cod_local}-{cod_visit}"
+    uid_source = f"{TEMPORADA}-{jornada}-{cod_local}-{cod_visit}-{acta}"  # add acta: partidos suspendidos generan nueva acta
     evento.uid = hashlib.md5(uid_source.encode()).hexdigest()
 
     # # ---- Recordatorio automático (2 horas antes) ----
