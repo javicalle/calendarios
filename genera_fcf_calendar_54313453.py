@@ -45,8 +45,8 @@ ZONA = ZoneInfo("Europe/Madrid")
 
 # PARTIDOS_URL = f"{BASE_URL}api/competition/partidos?grupId={GRUPO}"
 EQUIPO_URL = f"{BASE_URL}api/clubs/{CLUB}/team/{EQUIPO}"
-
-response = requests.get(EQUIPO_URL)
+REQUEST_HEADER = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36'}
+response = requests.get(EQUIPO_URL, headers=REQUEST_HEADER)
 response.raise_for_status()
 
 equipo = json.loads(response.text)
