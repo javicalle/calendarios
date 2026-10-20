@@ -51,7 +51,18 @@ REQUEST_HEADER = {
   'Upgrade-Insecure-Requests': '1'
 }
 response = requests.get(EQUIPO_URL, headers=REQUEST_HEADER)
+print(f"::warning ::Status: {response.status_code}")
+print(f"::warning ::Response: {response.json()}")
+
 response.raise_for_status()
+
+# try:
+#     response = requests.get('https://httpbin.org/status/403')
+#     response.raise_for_status()
+# except requests.exceptions.RequestException as e:
+#     print(e.request)
+#     print(e.response)
+
 
 equipo = json.loads(response.text)
 # print("equipo: " + json.dumps(equipo, indent=2))
