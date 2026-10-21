@@ -53,8 +53,9 @@ REQUEST_HEADER = {
 }
 response = requests.get(EQUIPO_URL, headers=REQUEST_HEADER)
 print(f"::warning ::Status: {response.status_code}")
+print(f"::warning ::x-amzn-waf-action: {response.headers.get("x-amzn-waf-action", "not present")}")
+print(f"::warning ::aws-waf-token cookie: {response.cookies.get("aws-waf-token", "not set")}")
 print(f"::warning ::Response: {response.text}")
-
 response.raise_for_status()
 
 # try:
