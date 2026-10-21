@@ -46,6 +46,7 @@ ZONA = ZoneInfo("Europe/Madrid")
 # PARTIDOS_URL = f"{BASE_URL}api/competition/partidos?grupId={GRUPO}"
 EQUIPO_URL = f"{BASE_URL}api/clubs/{CLUB}/team/{EQUIPO}"
 REQUEST_HEADER = {
+  'Host': 'www.fcf.cat',
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36',
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
   'Upgrade-Insecure-Requests': '1'
