@@ -28,6 +28,21 @@ jobs:
       - name: Install requirements
         run: pip install -r requirements.txt
 
+      - name: Setup Tailscale
+        uses: tailscale/github-action@v4
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          audience: ${{ secrets.TS_AUDIENCE }}
+          tags: tag:github-actions
+
+      # you can't set the exit-node name at 'up' time; so instead set it after
+      # we've gotten up and running
+      # https://github.com/tailscale/github-action/issues/123
+      # https://github.com/tailscale/tailscale/issues/4152#issuecomment-1066126643
+      - name: use named exit node in tailscale
+        run: |
+          timeout 5m sudo -E tailscale set --exit-node=t630 --exit-node-allow-lan-access=true
+
       - name: Generar calendarios
         run: python genera_fcf_calendar_54313453.py
 
