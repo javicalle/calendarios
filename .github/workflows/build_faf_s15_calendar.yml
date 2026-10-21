@@ -11,6 +11,7 @@ on:
         type: boolean
 
 permissions:
+  contents: write  # to commit changes
   id-token: write # This is required for the Tailscale action to request a JWT from GitHub
   # Additional required permissions for your workflow
 
