@@ -1,8 +1,8 @@
 name: Actualizar calendario FAF S15 A
 
 on:
-  # schedule:
-  #   - cron: "0 3/6 * * *"
+  schedule:
+    - cron: "0 3/6 * * *"
   workflow_dispatch:
     inputs:
       force:
