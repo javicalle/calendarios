@@ -10,6 +10,10 @@ on:
         required: false
         type: boolean
 
+permissions:
+  id-token: write # This is required for the Tailscale action to request a JWT from GitHub
+  # Additional required permissions for your workflow
+
 jobs:
   build:
     runs-on: ubuntu-latest
