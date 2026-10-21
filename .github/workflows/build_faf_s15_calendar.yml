@@ -10,16 +10,16 @@ on:
         required: false
         type: boolean
 
-permissions:
-  contents: write  # to commit changes
-  id-token: write # This is required for the Tailscale action to request a JWT from GitHub
-  # Additional required permissions for your workflow
-
 jobs:
   build:
     runs-on: ubuntu-latest
     outputs:
       is_updated: ${{ steps.site_changes.outputs.site_updated }}
+
+    permissions:
+      id-token: write # This is required for the Tailscale action to request a JWT from GitHub
+      # Additional required permissions for your workflow
+      contents: write  # to commit changes
 
     steps:
       - name: Checkout repo
